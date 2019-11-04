@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[把该死的「多页打印」PDF课件转为单页]]></title>
+    <url>%2Fpost%2Fcrop-lecture-pdf-into-slides.html</url>
+    <content type="text"><![CDATA[方案：将PDF输出为图片，把图片批量裁剪后合并为PDF 平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick 12345for /l %%x in (1, 1, 106) do ( echo %%x magick convert test_%%x.png -crop 1495x1120+492+464 tmp/img%%x-1.png magick convert test_%%x.png -crop 1495x1120+492+1924 tmp/img%%x-2.png) 细节待续]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[南开大学2018年有机化学试题参考答案_beta]]></title>
+    <url>%2Fpost%2Fnankai-orgchem2018-answer-beta.html</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[南开大学2015年有机化学试题参考答案_beta]]></title>
+    <url>%2Fpost%2Fnankai-orgchem2015-answer-beta.html</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[南开大学2014年有机化学试题参考答案_beta]]></title>
+    <url>%2Fpost%2Fnankai-orgchem2014-answer-beta.html</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[南开大学2013年有机化学试题参考答案_beta]]></title>
+    <url>%2Fpost%2Fnankai-orgchem2013-answer-beta.html</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX19DOiupUDtLj8LcPzqm48229w8VMO9pgQ49Ro6OxCKyNTw0Oo88jLGfsJ/1wnAbnriNMBnh6uXHgaZSFsTn1eqMYyhB8EXhi+UYHkNR0V05BpROPbgsRdMC8BXm3GaUsKIHj58cbig9gwV7mTZS/Mh+F3NyQiOG1gkrvuKkdoEncXp0siALjsl14SIpriFuCbmyfiDSjkhvHgwO3DjvPR+TmDF34g1aCLj2SL8jKdrur7fzM46xermLC8XZC27hpkTOhNcMGUx9L5rexe/eFB7oEH1LQbcmsYPwmncD7KwfheBs4iUbg4UP3DXNQric36bh+Ia3nQmCNiim9A3sm8/QZscoAdsBexdn1zhlYwxECC/9JMoBfRKsE1NSsIdPfOc3omQtixzumkwbNAR9SMyxzUxqc8GEyCxDgmPsM+zZMd9UeHDmHvWHcy7+Cj4cNYA/oGMiICoEzNMplrZTG3/t6ivv1P666a1P0SZfXqCXVsXEhXBEpQtbG2CNYzVgVGAUoagfELEDDw==]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>有机化学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[南开大学2019年有机化学试题参考答案_beta]]></title>
+    <url>%2Fpost%2Fnankai-orgchem2019-answer-beta.html</url>
+    <content type="text"><![CDATA[请输入查看密码： Incorrect Password! No content to display! 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]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>有机化学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Chrome浏览器书签备份]]></title>
+    <url>%2Fpost%2Fchrome-bookmark-autosave.html</url>
+    <content type="text"><![CDATA[实现方案 对于普通文件的单纯备份，往往一个硬盘了事，有可靠的网盘的话就更好了；对于一些频繁更改的文件比如我们的大论文啊，就需要版本控制了，Git是个不错的选择，当然有一定的学习成本了，而且现在一些网盘也有这些功能了。 而对于浏览器中的数据，比如书签、密码、浏览记录等等，这些文件内容天天改动，有时候跨平台、跨机器想找个网页还真挺麻烦……FireFox、Chrome这些浏览器都有备份功能，一来我自己不偏好网络备份敏感数据（虽然他不值钱），二来这些备份需要一直联网（这一点偶尔会不大友好，突然联网后书签栏会炸掉）。此外，Xmarks也是个第三方多浏览器同步备份的工具，可惜挂了。 然而手动保存太废事了，，关键是脑子不好人又懒，往往记不得去备份……于是想能不能自动导出到同步盘呢？说是实现方案，其实是做一回脚本小子，写个批处理使用现有的方案将导出的HTML文件保存到同步盘。 以下是正文（需要装机Python）： Chrome书签备份 使用的项目： https://github.com/kent666a/py-chrome-bookmarks-markdown https://github.com/bdesham/chrome-export 新建一个批处理文件，比如chrome-bookmark.bat，这里用的是第二个项目，里面只需写上一行： 1python export-chrome-bookmarks filename.html 其中filename.html文件写绝对路径 将这个批处理文件放入开机启动项（Mac和Linux应该有相应的设置吧），这样每次开机就可以备份一份到同步盘了，在安装有同步盘的机器和网页都可以使用了。 Chrome密码备份参见：https://raw.githubusercontent.com/Jueee/PythonWebCrawlers/master/14-ChromePassword.py 1234567891011121314151617181920212223242526272829303132333435'''获取Chrome浏览器已保存的账号和密码。'''# Chrome浏览器已保存的密码都保存在一个sqlite3数据库文件中，和Cookies数据库在同一个文件夹.# C:\Users\Jueee\AppData\Local\Google\Chrome\User Data\Default\Login Data'''使用CryptUnprotectData函数解密数据库中的密码字段，即可还原密码，只需要User权限，并且只能是User权限。''''''为了防止出现读写出错，建议先把数据库临时拷贝到当前目录。'''import os,sysimport shutilimport sqlite3import win32cryptdb_file_path = os.path.join(os.environ['LOCALAPPDATA'],r'Google\Chrome\User Data\Default\Login Data')print(db_file_path)tmp_file = os.path.join(os.path.dirname(sys.executable),'tmp_tmp_tmp')print(tmp_file)if os.path.exists(tmp_file): os.remove(tmp_file)shutil.copyfile(db_file_path,tmp_file)conn = sqlite3.connect(tmp_file)for row in conn.execute('select signon_realm,username_value,password_value from logins'): try: ret = win32crypt.CryptUnprotectData(row[2],None,None,None,0) print('网站：%-50s，用户名：%-20s，密码：%s' % (row[0][:50],row[1],ret[1].decode('gbk'))) except Exception as e: print('获取Chrome密码失败...') raise econn.close()os.remove(tmp_file) 为了更方便的执行，可以新建一个批处理文件： 1python ChromePassword.py &gt; ChromePassword.csv 这样就可以将结果输出到表格中，使用Excel查看了，当然，也可以输出成纯文本文件。]]></content>
+      <categories>
+        <category>Computer Skills</category>
+      </categories>
+      <tags>
+        <tag>Chrome</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[nku-ana-ans-beta]]></title>
+    <url>%2Fpost%2Fnku-ana-ans-beta.html</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX19Nr2dlvdmh5FNZoamaSLpIIKeIILlJThsQP9oU3NobBm5TEwvKIX3SpH4cVnE+ioMi2DurA17oQVI1tXkZ/h9hxCTHHuHSbQk55ibc2gnhvs7yITvtehLfz1F5pxIhjprhIc9oYx8EBmDj59VCYibiHQ8jE6Dbpx5zjFdAnjUGjG7dd5wfRDUd6GFbyYgvn5YUQLo9ah8+Gg+SdHBTULm0oYchOYCOZusl2Lrguzbv7LrfmsUVRFD8i6T4eq/xOFHjlrg9lm5mUq9GzJB+7dk2zxVgq/zALbIwxTUPCv0nM3/dd2x56Uk7CBOCcILFday2dGcV1zsjhPCMd3IxIOyLGLAdodEtHj8SaWhRdl3gZrQQ994EbOCckM6c6vI8rqgNsRc7OQmKdjC2GXIx1WLr0NlUdw6tZ4dQLWHhKFYqmuP8bXXtfTHp3sA13i3awpJrV1FaQeR+Fbj/GdIwV05Z9IfXInFgVLYRBw5O8zwnayTpSaPynauVXV3qGlAa8Ou7/l771jCmRfWU06MRucsnSQHde5Q1Nir6a2Uob6F62dTZpyPR2tMbyEPbxxb3sMcifhqoI6/fbrlgqJpOedj28aRjjYzJM0u6g02vr6DY+Imieu942HaddoPqvlLcCELTz72tH2gvxvukrRDyXmTjqLm9FWXGv0aUKYKi/xQrA4myj5KHV9YrzbE/q/L8/drxyrAeBUE2lfNvrewtADkWhDEJ4khxjTmBrlpTS4YOVbK0YCQYU2rorW5plYGv5lSr3qMsnU9WA0m7REB19tjGXBbEcJZ1faos8Uf+VYK0Z1KConmgbbDarhST6IloKGxF7Efg2TwNLMqEzgpNT2io4BD+0N1OaItzaHpRyKRfEAoDHmToldBjvuzYMqK1Zjgn9uSVXzRcLiebfcY1V2mw/pVgLGELLV2YPlCx9dm7wBkZJY6OLnLavI7n3UpTFFzs9dh4FhcdbvKFjm7FiujMbyJ2dS/5sXNbqeoGQfq4JL+y6pwDl+ULfwrG5fuLsSEsB5Wk+lm8dvq4iKdLQWevFIFvzoWZwmKz3ioQ6PO1GNeGP7BKG7CgLJAgkHO2oF+Y6p3Pm3beTaI7fcwavTf5UAtr04JaPYDSL4RQmI4qtCODb9laV4B538cTQUCV+m+QvvvN8Jy+/EpfKgTGi6DxE+CYw9rBwz7+1FSRN9CZSEfMOsmLYoXBmGtNTAKPz2NQQbca28gqsLFM+aOrxTJaznGT0jJqz/0=]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>分析化学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[有机化学考研每日一题 v2]]></title>
+    <url>%2Fpost%2Forc-daily-questions-v2.html</url>
+    <content type="text"><![CDATA[题目来源比较杂，基本上是各个QQ群里出现过的，欢迎在下方评论添加（如是图片可以放在百度云/图床，比如 https://sm.ms ） 反应篇 完成反应 QuestionTips A Highly Efficient and Convergent Reaction for the Synthesis of Bridgehead Enone‐Containing Polycyclic Ring Systems. DOI: 10.1002/1521-3773(20000804)39:15&lt;2714::AID-ANIE2714&gt;3.0.CO;2-1 完成反应 完成反应 QuestionTips 中科院2007年题 J. Org. Chem. 1987, 52, 21, 4831-4832 DOI: 10.1021/jo00230a043 不对称丙烯基硼化 Asymmetric Allylboration 完成反应 考研题，求出处 doi: 10.1080/00397910500287967 转化篇 推断题 已知化合物A， 机理篇 写出形成各个产物的机理QuestionTipsJ. Org. Chem., 1991, 56 (7), pp 2591–2594DOI: 10.1021/jo00007a063 写出下面反应的机理 QuestionTipshttp://muchong.com/t-9546281-1 写出下面一组反应机理 Question 1Question 2Question 3Tips见南开2012年有机化学复试笔试Question 3:Total synthesis of Hinokione:Reference: Snitman, D. L.; Himmelsbach, R. J.; Watt, D. S. J. Org. Chem., 1978, 43, 4758.DOI: 10.1021/jo00419a011 合成篇 以乙酰乙酸乙酯及3-丁烯-2-酮为主要原料合成下列中间体： 用苯和不超过四个碳的有机原料及合适的无机试剂合成：]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>有机化学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[有机化学考研每日一题 v1]]></title>
+    <url>%2Fpost%2Forc-daily-questions-v1.html</url>
+    <content type="text"><![CDATA[整理自微信公众号“有机考研每日一题”； PDF版 约定俗成：邢四=邢其毅. 基础有机化学（第四版） [2018-09-19] 选择题 [2018-09-18] 完成题 [2018-09-17] 完成题 [2018-09-16] 合成题 [2018-09-15] 选择题 西北大学2016 [2018-09-14] 完成题 [2018-09-13] 机理题 [2018-09-12] 完成题 [2018-09-11] 完成题 [2018-09-10] 机理题 [2018-09-09] 完成题 [2018-09-08] 完成题 [2018-09-07] 完成题 [2018-09-06] 选择题 1.下列叙述错误的是（ ）华南理工大学2001 A. 葡萄糖在酸性水溶液中有变旋现象 B. 糖苷既不与菲林试剂作用，也不与托伦试剂作用，在酸性水溶液中没有变旋现象 C. 虽然D-果糖不是D-葡萄糖的差向异构体，但都可以生成同一糖脎 D. 麦芽糖、蔗糖都是还原糖 2.下列化合物互为差向异构体的是（ ）上海交通大学2003 A. D-葡萄糖与L-葡萄糖 B. α-D-葡萄糖与ß-D-葡萄糖 C. α-D-甲基葡萄糖与L-葡萄糖 D. D-葡萄糖与D-果糖 [2018-09-05] 完成题 [2018-09-04] 完成题 [2018-09-03] 完成题 [2018-09-02] 完成题 [2018-09-01] 完成题 [2018-08-31] 完成题 [2018-08-30] 完成题 [2018-08-29] 完成题 [2018-08-28] 完成题 [2018-08-27] 化合物A与$\ce{Br2}$加成的主要产物是( ) [2018-08-26] 完成题 [2018-08-25] 下列化合物中，可用于制备格氏试剂的是( ) [2018-08-24] 完成题 Tips:[1,2]-Wittig rearrangement [2018-08-23] 完成题 [2018-08-22] 下列化合物中氮原子碱性由强到弱依次顺序为： [2018-08-21] 完成题 [2018-08-20] 完成题 [2018-08-19] 完成题 [2018-08-18] 将下列各化合物按其pKa值由小到大排序： [2018-08-17] 芳香醚的Birch还原 [2018-08-16] 完成题 [2018-08-15] 完成题 [2018-08-14] Fries重排，酚的溴代 [2018-08-13] 完成题 [2018-08-12] 酮酸的反应 : [2018-08-11] 选择题 下列反应，可用来制备1,5-二羰基化合物的是： A. Michael加成 B. Mannich反应 C. Haworth反应 D. Dieckmann反应 [2018-08-10] 完成题 [2018-08-09] 机理题 [2018-08-08] 完成题 [2018-08-07] 羟醛缩合 [2018-08-06] 完成题 [2018-08-05] 完成题 [2018-08-04] 完成题 [2018-08-03] 完成题 [2018-08-02] 完成题 [2018-08-01] 杀虫杀菌剂H结构如下，它是否具有手性？它有多少种立体异构？ [2018-07-31] $\mathrm{S}_{\mathrm{N}}1​$反应活性比较 [2018-07-30] 氢碳酸酸性比较 [2018-07-29] 下列化合物在稀酸溶液中能水解的是（） [2018-07-28] 完成题 [2018-07-27] 下列化合物在酸催化下反应速度最快的是（ ） [2018-07-26] 完成题 Tips: 邢四 Page 898]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>有机化学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[南开大学2016年有机化学试题参考答案_beta]]></title>
+    <url>%2Fpost%2Fnankai-orgchem2016-answer-beta.html</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX1+aCpIqt1vHmTPSChahv2tt1SUmkVt0MpLf9KaQjv/AOIdF4AUtcMSc1LoYw6Gjo6WJkzRt2e2rZJt9DSEjmFyUVH8wCnMFF7op5ggh9t77kY0LQFbSzRcy37tOZMXehRT/BSMdGYovrNzRkgZgy10ZI/9/SBEftkjnSWFFHybPLUFlG2Ld/vBcDJIdTeMTpruQYi9vJB38VS22NWYOoUqwfnvGNXnCTWLSDFJuxKEmXzaOmBpSB/jpJPPZFxGVsCw5dbrea+kPyyVJzq6i2Ao3DxipBLABqf6mww/Y95NAv1Uph389SvO379NSlze1+SJKamTxzhu8CQVNY+H1uipBKCUPUq8/i2CvyX0sSZiLYo9Q2mnRyNqfSfRBEUhnAuGoSz9xgk5uDYP6osKz8qwAuk/n/zg95H7DrkoUR2H9H55o7fl3qH7XFiBBL0bVrkNTBqqMVB7FjJ7bsTPLe0PLMKfZ0t0v0LHtQArBPC5y3gWVr30nOfV8eoD6itWPHz2ZY1YzExsjfVtxNmnovVnvWKmvlPFBY9yE2F/cy0ze0eMJMH1KtnEB3ax/TCY1LWLfFUnGPsxC/Q3WyKNPNicUU2zOsWJ6jQd9YwfxeaMKRtbBTw1hV2SP5dUoieNBzBKhNN5WUSSGsgRdMe+A0vsgKsH1V43pfpFVFyCPqBAhACpcpQOi1qkC2unrEeoA9/fBeh/on90MoqmOr+1o8tFYxxu8kC89Io+YjyCaC5OgrQWjg35IUUybxMzP87dsT0RNPwZBKK5k/nTl4ca0tn4JfL1oWEG7knH2FXXCBHcT1s0+MGFtYde91EjWDxwJTAsLgrb9wyVJV6kzUsJpUeXFG/US3bdj7MpPVAh5qD+uOxs2VnRVE/GY4BPItvwzGMSVs83eG+Xue8YqOZ42k8kNoqRqsJLGhcu3DhG1Emc1lmSIaIdqHVR0A/4NA/TIvIEDuzA7dYUjYjILbTlLtnW1uZdcgucPc2Xlm1cC0ECP3dzRixn/VKT9av2IjZSme5wNmo/VyMrLDhufYLu3e8Pt3HrGplXzc5wUMBSZkyl1MMu9gJ6Eo9QNXpadeXJN72tdfVjbDw35ZIH+8T4pz3SSF8HJ4ZKD1kuF9pFS1KgNOFwRuifzexJMUSmTKq10m01BRvjK/o5dHGgrK3Iej+a+CVrpfLPmw1HJRaVKIB0Eh9CbMUQnNdSLNsb4+QXxCZqghIIRWfZLMNSaSoYGFoYO5O7sXXsBSlklgz5ftY+vhQ1oxY47qIWIWF6//YG8nq0VHFu0kyFDvxBvmQNzquNCknzxg48wAmJ2YUOdwaoUrozPtznxO1P/HBYAPF/pPWxMTK8gfEw6OBE6+t4BP5CramX3d/wtBhwT0POIOLDmVhktYzK+xP8yxPUyufE1AyxPJlODR+wgDVzzXPl9S0M+Z7efAPo0OWMiTNVHHoTtdeWNfIMLbQYaVJY1jznPDVWld8U9mgNaKOmbcZYvfaoxc3zCvpeFfjA=]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>有机化学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[南开大学化学学院考研资料共享]]></title>
+    <url>%2Fpost%2Fnku-chem-ky.html</url>
+    <content type="text"><![CDATA[function siteTime(){ window.setTimeout("siteTime()", 1000); var seconds = 1000; var minutes = seconds * 60; var hours = minutes * 60; var days = hours * 24; var years = days * 365; var today = new Date(); var todayYear = today.getFullYear(); var todayMonth = today.getMonth()+1; var todayDate = today.getDate(); var todayHour = today.getHours(); var todayMinute = today.getMinutes(); var todaySecond = today.getSeconds(); /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳) year - 作为date对象的年份，为4位年份值 month - 0-11之间的整数，做为date对象的月份 day - 1-31之间的整数，做为date对象的天数 hours - 0(午夜24点)-23之间的整数，做为date对象的小时数 minutes - 0-59之间的整数，做为date对象的分钟数 seconds - 0-59之间的整数，做为date对象的秒数 microseconds - 0-999之间的整数，做为date对象的毫秒数 */ var t1 = Date.UTC(2019,12,20,00,00,00); //北京时间2018-2-13 00:00:00 var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond); var diff = t1-t2; var diffYears = Math.floor(diff/years); var diffDays = Math.floor((diff/days)-diffYears*365); var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours); var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes); var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds); document.getElementById("sitetime").innerHTML=" 距离2020年考研："+/*diffYears+" 年 "+*/diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒"; }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/ siteTime(); 这个页面将要被迁移到 https://nkuchem.github.io/wiki 本页面正在建设中，欢迎鹅群719154169（南开化院考研资料共享），需要您的维护！支持本页面建设，您可以在相应页面下方评论或以邮件mchen19@163.com联系。简书同步更新：https://www.jianshu.com/p/51d63677b917s 声明 页面上所有内容均整理自网络，版权归原作者所有，如有冒犯，请您联系删除。 历年研究生入学考试初试试题综合化学 2005-2013年南开综合化学试题 KEY: 1pm6 2015年南开综合化学试题 KEY: sr25 2005-2011年南开综合化学答案（sawnlin） KEY: 2m0k 2017年南开综合化学试题（有机化学部分）含答案 KEY: hp1g 2018年南开综合化学试题（回忆版v20180413） KEY: ntrt 有待更新 2019年南开综合化学试题（回忆版v20181223） 见鹅群 无机化学 1999-2013年南开无机化学试题 KEY: d9cl 2005-2011年南开无机化学试题参考答案（仅供参考） KEY: 2u4i 1999-2011年南开无机化学试题参考答案（手写版，仅供参考） KEY: r6zr 分析化学 1999-2001年南开分析化学试题 KEY: 0457 2003-2013年南开分析化学试题 KEY: qwhq 2015年南开分析化学试题 KEY: 16o3 2016、2018年南开分析化学试题（回忆版，多版本） 见鹅群 未整理 有机化学 1983-2016年南开有机化学试题（打印用） KEY: h1e0 最后更新：2019-01-12 2017年南开有机化学试题 KEY: xez6 2018年南开有机化学试题（回忆版v20181210） KEY: 9cjl 100/150分回忆版 期待补充 2019年南开有机化学试题（回忆版v20181224） KEY: 见鹅群 130/150分回忆版 2000-2009年南开有机化学试题参考答案 见《有机化学学习辅导（第二版）》 2010-2012、2017年南开有机化学试题参考答案 KEY: wa1i 2013年南开有机化学试题参考答案测试版 KEY: orgchem2013 2014年南开有机化学试题参考答案测试版 2015年南开有机化学试题参考答案测试版 2016年南开有机化学试题参考答案测试版 KEY: orc2020 有错误请在评论区指正 2018年南开有机化学试题（回忆版）参考答案测试版 KEY: 有错误请在评论区指正 2019年南开有机化学试题（回忆版）参考答案测试版 KEY: 有错误请在评论区指正 物理化学 2001-2004年南开物理化学试题 KEY: fd7j 2005-2012年南开物理化学试题 KEY: zj3y 2018年南开物理化学试题（回忆版） KEY: 189b 高分子化学与物理 1999-2000年、2005-2012年南开高分子化学与物理试题 KEY: ey87 其中2005-2010年含参考答案 2015年南开高分子化学与物理试题（回忆版） KEY: 184k 2006-2012年南开高分子化学与物理试题参考答案（图片版） KEY: n5lz by salmon95 参考书目及资料综合化学 先这样凑合一下……http://muchong.com/t-10335941-1 分析化学 等待援助中…… 定量分析化学 思考题答案 南开大学化学学院定量分析化学课件 有机化学参考书目 王积涛. 有机化学（第三版. 上下册）[M]. 南开大学出版社, 2009. KEY: 0rzb 豆瓣 张宝申等. 有机化学学习辅导（第二版）[M]. 南开大学出版社, 2010. 豆瓣 张宝申等. 有机化学习题解（第二版）[M]. 南开大学出版社, 2011. 豆瓣 王积涛有机化学(第三版)章后习题答案 邢其毅 裴伟伟 裴坚 徐瑞秋. 基础有机化学（第四版）[M]. 高等教育出版社, 2016. KEY: gwnp 裴坚. 基础有机化学习题解析（第四版）[M]. 高等教育出版社, 2017. KEY: o9xq 裴伟伟 冯骏材. 有机化学例题与习题——题解及水平测试 [M]. 高等教育出版社, 2002. KEY: vfm4 邢其毅. 基础有机化学（第三版）[M]. 高等教育出版社, 2005. KEY: 2ky8 裴伟伟. 基础有机化学习题解析（第三版）[M]. 高等教育出版社, 2006. KEY: tf8r Jie Jack Li. Name Reactions: A Collection of … , 5th Edition[M]. Springer, 2013. KEY: o8ly Grossman. 有机反应机理的书写艺术. Art 翻译小组. 附答案 KEY: csgu Stuart Warren. 有机合成——切断法（原书第二版）. 药明康德 译. 科学出版社 KEY: jj7l 其他相关 南开大学化学学院本科生有机化学试题 KEY: jiy6 1986-2014年中国科学院大学有机化学试题（缺1991年） KEY: 0v7b 更新日期：2019-01-01，后续更新~ 【视频】清华大学 李艳梅 有机化学 B站 上册49讲 + 下册26讲 在线观看 【视频】北京大学 裴坚 中级有机化学 B站传送门 官能团转换/Functional Group Interconversion KEY: sew2 By Lin, Shrong-Shi(林崇熙)? 【软件】ChemOffice Pro KEY:8sre 【软件】ReactionFlash - Version2.9.1(171).apk KEY: ltq8 人名反应速览Android版 物理化学 【课件】南开大学物理化学课件 李悦2017 KEY: 0ivz 结构化学 结构化学基础（第4版）习题解析 KEY: 8m2e 南开大学结构化学国家精品课 包含结构化学、分子模拟等相关课件与视频 【视频】南开大学孙宏伟公开课 B站传送门 复试试题及相关 【无机化学】2016年南开无机化学复试试题 KEY: k8w6 【分析化学】2016年南开分析化学复试试题 KEY: xzf0 【有机化学】有机化学复试程序及相关注意事项 KEY: jzjx 【有机化学】2010-2016年南开有机化学复试试题（缺2013年） KEY: yj9i 【有机化学】2018年南开有机化学复试试题 KEY: mfi9 【有机化学】2019年南开有机化学复试试题 KEY: gkr7 【物理化学】2013年南开物理化学复试试题 KEY: jgyr 【物理化学】2016年南开物理化学复试试题 KEY: txkn 【化学工程】2013-2015年南开化学学院工程硕士复试试题 KEY: k689 信息汇总 南开大学2013年硕士研究生招生参考书目 KEY: ac81 化学学院2019年自命题专业课考研大纲 南开大学2019年硕士招生专业目录及招生计划 百度云备份 备份 南开大学2007年—2017年全日制硕士研究生报考录取人数统计表 KEY: 7x3b 南开大学2015年—2019年全日制硕士研究生报考录取人数统计表 KEY: ah4u 南开大学化学院2018年初试分数排名 KEY: t9c0 南开大学化学院2019年初试分数排名 KEY: 4iwl 各年考研录取概况（统考）2019年2018年2017年2016年 报考专业 报考 录取 备注 无机化学 39 8+7(调剂) 院内调剂 分析化学 42 6 有机化学 182 40+4(调剂) 院内调剂 物理化学 51 10 高分子化学与物理 54 15 化学生物学 10 1 精细化学品化学 3 0 化学工程 163 42 植物病理学 1 1 农业昆虫与害虫防治 1 农业0 农药学 5 农业0 农药 1 农业0 按分数排名得报考人数 报考专业 报考 录取 报录比 无机化学 51 10 – 分析化学 95 9 10.6 有机化学 152 39+1 3.8 物理化学 21 5 – 高分子化学与物理 32 11 化学生物学 6 精细化学品化学 2 化学工程 111+3（非全） 36 农药学 4 按分数排名得报考人数 报考专业 报考 录取 报录比 无机化学 58 8 分析化学 55 10 有机化学 189 21 化学生物学 4 0 精细化学品化学 3 0 农药学 2 0 物理化学 40 6 高分子化学与物理 68 6 化学工程 95 46 来自官网数据 报考专业 报考 录取 报录比 无机化学 53 9 分析化学 35 8 有机化学 161 22 化学生物学 12 1 精细化学品化学 4 0 农药学 3 1 农业昆虫与害虫防治 1 0 物理化学 38 8 高分子化学与物理 82 11 化学工程 80 44 来自官网数据 点击下载 支持本页面 &amp; 鸣谢 参与到资料、信息的共享便是您最直接的支持！ 欢迎在下方评论或邮件联系； 下侧支付宝扫码领红包]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>化学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo 博客搭建纪实]]></title>
+    <url>%2Fpost%2Fhexo-blog-setup.html</url>
+    <content type="text"><![CDATA[这里简单记录这个博客的搭建过程，使用Hexo结合GitHub Pages搭建，NexT主题，关于Hexo: https://hexo.io/zh-cn/docs/ 介绍【有待补充】 Hexo 是一款基于 Node.js 的静态博客框架，可以将生成的静态网页托管在 GitHub 上，当然也可以托管在 coding.net 上，后者国内访问速度快些，与此同时由于某些原因GitHub屏蔽了百度爬虫，托管于GitHub仍需额外的操作。 搭建之前准备工作 - 工具 Node.js 下载界面 安装时需要注意勾选加入PATH Git 下载界面 之后需要用到命令行，Windows可以Shift + 鼠标右键在当前本文件夹下打开Power shell或是命令提示符，也可以用另外的工具，比如Cmder，当然，Cmder完整版下已经集成了git工具，就不需要安装Git了。 注册 GitHub账户 注册名username稍后与默认的博客一致，比如是这样的：https://username.github.io/，当然也可以填写自己申请的域名。 注册账户后，可以新建一个仓库（repository），仓库名为username.github.io，这仓库存放的也就是博客相关的文件。 本地构建 安装Hexo在命令行下输入npm install -g hexo-cli， npm也就是Node.js的包管理器（package manager） 创建本地库hexo init username.github.io 本地创建一个文件夹cd username.github.io 进入这一目录 安装主题这里安装的是NexT主题，https://github.com/theme-next/hexo-theme-next输入：git clone https://github.com/theme-next/hexo-theme-next themes/next下载太慢也可以GitHub上下载后解压到themes文件夹下 安装依赖模块npm install 安装自动部署发布工具 hexo-deployer-gitnpm install hexo-deployer-git --save 主题配置在配置文件/username.github.io/_config.yml中的theme下填入next（旧版填入next，6.x版next-reloaded可以切断，theme:之后一定要注意有个空格） 1234# Extensions## Plugins: https://hexo.io/plugins/## Themes: https://hexo.io/themes/theme: next-reloaded 关于NexT主题的细节配置可以见这里（比如侧边栏、icon、头像这些）：http://theme-next.iissnan.com/getting-started.html主题配置文件在这里：/username.github.io/themes/next-reloaded/_config.yml 配置文件需要的修改： 1234567title: Your Blog‘s Namesubtitle:description:keywords:author: Your Namelanguage: zh-Hans # 主题NexT升级6.x之后需要改为zh-CNtimezone: Asia/Shanghai #时区 本地预览+测试调整 先写一篇hexo new &quot;filename&quot; 新建一篇，文件会放在这里：/username.github.io/source/_posts，我们可以使用一款markdown编辑器来编辑markdown文件 1234567---title: file-testdate: 2019-01-01 00:00:00tags: [tag1, tag2]---# title 1The quick brown fox jumps over the lazy dog. 测试/预览hexo s 123$ hexo sINFO Start processingINFO Hexo is running at http://localhost:4000 . Press Ctrl+C to stop. 这时可以在浏览器输入http://localhost:4000预览 发布到GitHub按上述Press Ctrl+C to stop.之后： 在配置文件之后加入：1234deploy: type: git repo: https://github.com/username/username.github.io.git branch: master 依次输入三条命令： 123hexo cleanhexo ghexo d 其中第一次输入hexo d之后会弹出GitHub登录窗口，以后写博客只需hexo g、hexo d此时访问https://username.github.io/ 便可以看到博客了 注：hexo clean=清除缓存文件 (db.json)和已生成的静态文件(public)​ hexo g=hexo generate，生成静态文件​ hexo d=hexo deploy，部署网站​ 更多hexo命令参考：https://hexo.io/zh-cn/docs/commands.html 继续设置到这里基本就大概有个可以看的框架了 添加评论系统： Valine+Leancloud，参考sjf0115[1] 日常操作a. 写作、发布 hexo g 、 hexo db. 新建页面 hexo n &quot;filename&quot;c. 新建草稿 hexo new draft &quot;filename&quot;d. 发布草稿 hexo publish [layout] &lt;filename&gt; 搜索引擎百度 baidu_url_submitter 手动推送 这一部分参照了资料[2][3] Google Adsense注意验证的手机号前加+86，例如+8618812345678 使用的插件12345678npm install hexo-blog-encrypt --savenpm install hexo-baidu-url-submit --savenpm install hexo-generator-sitemap --savenpm install hexo-generator-baidu-sitemap --savenpm install hexo-generator-searchdb --savenpm install hexo-generator-feed --savenpm install hexo-reference --savenpm install hexo-asset-image --save # npm audit产生一个名为lodash的vulnerability 参考资料【见尾注】 1.http://smartsi.club/add-a-comment-function-to-the-next-theme-of-hexo.html ↩2.Hexo插件之百度主动提交链接 ↩3.hexo的SEO方法 ↩]]></content>
+      <categories>
+        <category>Computer Skills</category>
+        <category>Hexo 博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+</search>

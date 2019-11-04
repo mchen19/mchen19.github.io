@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Chen&#39;s Blog</title>
+  
+  <subtitle>Love life, love work.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.mchen.ink/"/>
+  <updated>2019-11-04T13:32:12.368Z</updated>
+  <id>https://www.mchen.ink/</id>
+  
+  <author>
+    <name>Noky Chen</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>把该死的「多页打印」PDF课件转为单页</title>
+    <link href="https://www.mchen.ink/post/crop-lecture-pdf-into-slides.html"/>
+    <id>https://www.mchen.ink/post/crop-lecture-pdf-into-slides.html</id>
+    <published>2019-11-04T13:25:20.000Z</published>
+    <updated>2019-11-04T13:32:12.368Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>南开大学2018年有机化学试题参考答案_beta</title>
+    <link href="https://www.mchen.ink/post/nankai-orgchem2018-answer-beta.html"/>
+    <id>https://www.mchen.ink/post/nankai-orgchem2018-answer-beta.html</id>
+    <published>2019-07-28T10:25:13.000Z</published>
+    <updated>2019-07-28T10:46:38.842Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>南开大学2015年有机化学试题参考答案_beta</title>
+    <link href="https://www.mchen.ink/post/nankai-orgchem2015-answer-beta.html"/>
+    <id>https://www.mchen.ink/post/nankai-orgchem2015-answer-beta.html</id>
+    <published>2019-07-28T10:25:06.000Z</published>
+    <updated>2019-07-28T10:46:31.548Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>南开大学2014年有机化学试题参考答案_beta</title>
+    <link href="https://www.mchen.ink/post/nankai-orgchem2014-answer-beta.html"/>
+    <id>https://www.mchen.ink/post/nankai-orgchem2014-answer-beta.html</id>
+    <published>2019-07-28T10:24:56.000Z</published>
+    <updated>2019-07-28T10:46:24.012Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>南开大学2013年有机化学试题参考答案_beta</title>
+    <link href="https://www.mchen.ink/post/nankai-orgchem2013-answer-beta.html"/>
+    <id>https://www.mchen.ink/post/nankai-orgchem2013-answer-beta.html</id>
+    <published>2019-07-28T10:24:12.000Z</published>
+    <updated>2019-07-28T10:46:16.998Z</updated>
+    
+    <summary type="html">
+    
+      正在测试，仅供交流
+    
+    </summary>
+    
+      <category term="考研" scheme="https://www.mchen.ink/categories/kaoyan/"/>
+    
+    
+      <category term="考研" scheme="https://www.mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="有机化学" scheme="https://www.mchen.ink/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>南开大学2019年有机化学试题参考答案_beta</title>
+    <link href="https://www.mchen.ink/post/nankai-orgchem2019-answer-beta.html"/>
+    <id>https://www.mchen.ink/post/nankai-orgchem2019-answer-beta.html</id>
+    <published>2019-03-11T15:55:08.000Z</published>
+    <updated>2019-07-28T10:41:21.423Z</updated>
+    
+    <summary type="html">
+    
+      正在测试，仅供交流
+    
+    </summary>
+    
+      <category term="考研" scheme="https://www.mchen.ink/categories/kaoyan/"/>
+    
+    
+      <category term="考研" scheme="https://www.mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="有机化学" scheme="https://www.mchen.ink/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chrome浏览器书签备份</title>
+    <link href="https://www.mchen.ink/post/chrome-bookmark-autosave.html"/>
+    <id>https://www.mchen.ink/post/chrome-bookmark-autosave.html</id>
+    <published>2019-03-01T16:10:46.000Z</published>
+    <updated>2019-07-28T10:25:42.716Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h1 id=&quot;实现方案&quot;&gt;&lt;a href=&quot;#实现方案&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Computer Skills" scheme="https://www.mchen.ink/categories/computer-skills/"/>
+    
+    
+      <category term="Chrome" scheme="https://www.mchen.ink/tags/Chrome/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nku-ana-ans-beta</title>
+    <link href="https://www.mchen.ink/post/nku-ana-ans-beta.html"/>
+    <id>https://www.mchen.ink/post/nku-ana-ans-beta.html</id>
+    <published>2019-02-24T13:44:09.000Z</published>
+    <updated>2019-03-01T16:57:15.393Z</updated>
+    
+    <summary type="html">
+    
+      数学公式、化学式测试
+    
+    </summary>
+    
+      <category term="考研" scheme="https://www.mchen.ink/categories/kaoyan/"/>
+    
+    
+      <category term="考研" scheme="https://www.mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="分析化学" scheme="https://www.mchen.ink/tags/%E5%88%86%E6%9E%90%E5%8C%96%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有机化学考研每日一题 v2</title>
+    <link href="https://www.mchen.ink/post/orc-daily-questions-v2.html"/>
+    <id>https://www.mchen.ink/post/orc-daily-questions-v2.html</id>
+    <published>2019-02-10T09:33:59.000Z</published>
+    <updated>2019-07-20T12:31:48.929Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;&lt;i class=&quot;fa
+        
+      
+    
+    </summary>
+    
+      <category term="考研" scheme="https://www.mchen.ink/categories/kaoyan/"/>
+    
+    
+      <category term="考研" scheme="https://www.mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="有机化学" scheme="https://www.mchen.ink/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有机化学考研每日一题 v1</title>
+    <link href="https://www.mchen.ink/post/orc-daily-questions-v1.html"/>
+    <id>https://www.mchen.ink/post/orc-daily-questions-v1.html</id>
+    <published>2019-02-09T03:32:11.000Z</published>
+    <updated>2019-02-09T03:32:11.000Z</updated>
+    
+    <summary type="html">
+    
+      整理自微信公众号“有机考研每日一题”;
+    
+    </summary>
+    
+      <category term="考研" scheme="https://www.mchen.ink/categories/kaoyan/"/>
+    
+    
+      <category term="考研" scheme="https://www.mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="有机化学" scheme="https://www.mchen.ink/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>南开大学2016年有机化学试题参考答案_beta</title>
+    <link href="https://www.mchen.ink/post/nankai-orgchem2016-answer-beta.html"/>
+    <id>https://www.mchen.ink/post/nankai-orgchem2016-answer-beta.html</id>
+    <published>2019-02-01T09:44:29.000Z</published>
+    <updated>2019-03-02T05:40:36.876Z</updated>
+    
+    <summary type="html">
+    
+      正在测试，仅供交流
+    
+    </summary>
+    
+      <category term="考研" scheme="https://www.mchen.ink/categories/kaoyan/"/>
+    
+    
+      <category term="考研" scheme="https://www.mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="有机化学" scheme="https://www.mchen.ink/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>南开大学化学学院考研资料共享</title>
+    <link href="https://www.mchen.ink/post/nku-chem-ky.html"/>
+    <id>https://www.mchen.ink/post/nku-chem-ky.html</id>
+    <published>2019-01-07T14:59:22.000Z</published>
+    <updated>2019-11-04T13:22:29.279Z</updated>
+    
+    <summary type="html">
+    
+      南开大学化学学院各专业考研资料与信息汇总；Your Contributions are Welcome!（QQ群：719154169）
+    
+    </summary>
+    
+      <category term="考研" scheme="https://www.mchen.ink/categories/kaoyan/"/>
+    
+    
+      <category term="考研" scheme="https://www.mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="化学" scheme="https://www.mchen.ink/tags/%E5%8C%96%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 博客搭建纪实</title>
+    <link href="https://www.mchen.ink/post/hexo-blog-setup.html"/>
+    <id>https://www.mchen.ink/post/hexo-blog-setup.html</id>
+    <published>2019-01-07T14:00:00.000Z</published>
+    <updated>2019-02-10T04:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      恰值元旦假期有空，参照网上教程搭建起这个博客，便将过程记录在此备忘。
+    
+    </summary>
+    
+      <category term="Computer Skills" scheme="https://www.mchen.ink/categories/computer-skills/"/>
+    
+      <category term="Hexo 博客" scheme="https://www.mchen.ink/categories/computer-skills/hexo-blog/"/>
+    
+    
+      <category term="Hexo" scheme="https://www.mchen.ink/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
