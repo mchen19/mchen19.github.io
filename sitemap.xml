@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.mchen.ink/donate/index.html</loc>
+    
+    <lastmod>2019-11-17T13:31:33.763Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.mchen.ink/post/crop-lecture-pdf-into-slides.html</loc>
     
     <lastmod>2019-11-04T13:32:12.368Z</lastmod>
@@ -103,13 +110,6 @@
     <loc>https://www.mchen.ink/toolkit/index.html</loc>
     
     <lastmod>2019-02-23T05:32:36.836Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.mchen.ink/donate/index.html</loc>
-    
-    <lastmod>2019-02-23T05:29:13.815Z</lastmod>
     
   </url>
   
