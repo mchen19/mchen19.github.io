@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.mchen.ink/"/>
-  <updated>2019-11-04T13:32:12.368Z</updated>
+  <updated>2019-11-22T16:44:48.030Z</updated>
   <id>https://www.mchen.ink/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;linux-learning&#39;</title>
+    <link href="https://www.mchen.ink/post/linux-learning.html"/>
+    <id>https://www.mchen.ink/post/linux-learning.html</id>
+    <published>2019-11-22T16:44:47.000Z</published>
+    <updated>2019-11-22T16:44:48.030Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>把该死的「多页打印」PDF课件转为单页</title>
@@ -123,7 +145,7 @@
     <link href="https://www.mchen.ink/post/nankai-orgchem2019-answer-beta.html"/>
     <id>https://www.mchen.ink/post/nankai-orgchem2019-answer-beta.html</id>
     <published>2019-03-11T15:55:08.000Z</published>
-    <updated>2019-11-18T04:15:59.971Z</updated>
+    <updated>2019-11-28T16:06:42.477Z</updated>
     
     <summary type="html">
     
@@ -276,9 +298,9 @@
       <category term="考研" scheme="https://www.mchen.ink/categories/kaoyan/"/>
     
     
-      <category term="化学" scheme="https://www.mchen.ink/tags/%E5%8C%96%E5%AD%A6/"/>
-    
       <category term="考研" scheme="https://www.mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="化学" scheme="https://www.mchen.ink/tags/%E5%8C%96%E5%AD%A6/"/>
     
   </entry>
   
