@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mchen.ink/"/>
-  <updated>2019-12-30T07:09:55.251Z</updated>
+  <updated>2019-12-31T15:15:21.130Z</updated>
   <id>https://mchen.ink/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://mchen.ink/post/summary-2019.html"/>
     <id>https://mchen.ink/post/summary-2019.html</id>
     <published>2019-12-31T15:46:02.000Z</published>
-    <updated>2019-12-30T07:09:55.251Z</updated>
+    <updated>2019-12-31T15:15:21.130Z</updated>
     
     <summary type="html">
     
@@ -246,9 +246,9 @@
       <category term="考研" scheme="https://mchen.ink/categories/kaoyan/"/>
     
     
-      <category term="化学" scheme="https://mchen.ink/tags/%E5%8C%96%E5%AD%A6/"/>
-    
       <category term="考研" scheme="https://mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="化学" scheme="https://mchen.ink/tags/%E5%8C%96%E5%AD%A6/"/>
     
   </entry>
   
