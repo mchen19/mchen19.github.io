@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://mchen.ink/post/office365-installation-guide.html</loc>
+    <lastmod>2020-02-04</lastmod>
+  </url>  <url>
+    <loc>https://mchen.ink/post/nku-chem-ky.html</loc>
+    <lastmod>2020-01-25</lastmod>
+  </url>  <url>
     <loc>https://mchen.ink/post/summary-2019.html</loc>
     <lastmod>2019-12-31</lastmod>
   </url>  <url>
@@ -9,9 +15,6 @@
   </url>  <url>
     <loc>https://mchen.ink/post/crop-lecture-pdf-into-slides.html</loc>
     <lastmod>2019-12-28</lastmod>
-  </url>  <url>
-    <loc>https://mchen.ink/post/nku-chem-ky.html</loc>
-    <lastmod>2019-11-29</lastmod>
   </url>  <url>
     <loc>https://mchen.ink/post/nankai-orgchem2014-answer-beta.html</loc>
     <lastmod>2019-11-29</lastmod>

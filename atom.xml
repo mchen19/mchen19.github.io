@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mchen.ink/"/>
-  <updated>2019-12-31T18:04:12.049Z</updated>
+  <updated>2020-02-04T08:38:44.108Z</updated>
   <id>https://mchen.ink/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>office365-installation-guide</title>
+    <link href="https://mchen.ink/post/office365-installation-guide.html"/>
+    <id>https://mchen.ink/post/office365-installation-guide.html</id>
+    <published>2020-02-04T08:31:08.000Z</published>
+    <updated>2020-02-04T08:38:44.108Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Office" scheme="https://mchen.ink/tags/Office/"/>
+    
+  </entry>
   
   <entry>
     <title>第一份年志</title>
@@ -235,7 +259,7 @@
     <link href="https://mchen.ink/post/nku-chem-ky.html"/>
     <id>https://mchen.ink/post/nku-chem-ky.html</id>
     <published>2019-01-07T14:59:22.000Z</published>
-    <updated>2019-11-29T13:55:28.822Z</updated>
+    <updated>2020-01-25T12:44:15.144Z</updated>
     
     <summary type="html">
     
@@ -246,9 +270,9 @@
       <category term="考研" scheme="https://mchen.ink/categories/kaoyan/"/>
     
     
-      <category term="考研" scheme="https://mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
-    
       <category term="化学" scheme="https://mchen.ink/tags/%E5%8C%96%E5%AD%A6/"/>
+    
+      <category term="考研" scheme="https://mchen.ink/tags/%E8%80%83%E7%A0%94/"/>
     
   </entry>
   
