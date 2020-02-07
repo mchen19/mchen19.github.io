@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mchen.ink/post/office365-installation-guide.html</loc>
-    <lastmod>2020-02-04</lastmod>
+    <loc>https://mchen.ink/post/orc-daily-questions-v2.html</loc>
+    <lastmod>2020-02-07</lastmod>
   </url>  <url>
     <loc>https://mchen.ink/post/nku-chem-ky.html</loc>
-    <lastmod>2020-01-25</lastmod>
+    <lastmod>2020-02-07</lastmod>
+  </url>  <url>
+    <loc>https://mchen.ink/post/nankai-orgchem2016-answer-beta.html</loc>
+    <lastmod>2020-02-07</lastmod>
+  </url>  <url>
+    <loc>https://mchen.ink/post/nankai-orgchem2014-answer-beta.html</loc>
+    <lastmod>2020-02-07</lastmod>
+  </url>  <url>
+    <loc>https://mchen.ink/post/chrome-bookmark-autosave.html</loc>
+    <lastmod>2020-02-07</lastmod>
+  </url>  <url>
+    <loc>https://mchen.ink/post/office365-installation-guide.html</loc>
+    <lastmod>2020-02-04</lastmod>
   </url>  <url>
     <loc>https://mchen.ink/post/summary-2019.html</loc>
     <lastmod>2019-12-31</lastmod>
@@ -16,20 +28,8 @@
     <loc>https://mchen.ink/post/crop-lecture-pdf-into-slides.html</loc>
     <lastmod>2019-12-28</lastmod>
   </url>  <url>
-    <loc>https://mchen.ink/post/nankai-orgchem2014-answer-beta.html</loc>
-    <lastmod>2019-11-29</lastmod>
-  </url>  <url>
-    <loc>https://mchen.ink/post/nankai-orgchem2016-answer-beta.html</loc>
-    <lastmod>2019-11-29</lastmod>
-  </url>  <url>
     <loc>https://mchen.ink/post/linux-learning.html</loc>
     <lastmod>2019-11-22</lastmod>
-  </url>  <url>
-    <loc>https://mchen.ink/post/chrome-bookmark-autosave.html</loc>
-    <lastmod>2019-07-28</lastmod>
-  </url>  <url>
-    <loc>https://mchen.ink/post/orc-daily-questions-v2.html</loc>
-    <lastmod>2019-07-20</lastmod>
   </url>  <url>
     <loc>https://mchen.ink/post/hexo-blog-setup.html</loc>
     <lastmod>2019-02-10</lastmod>

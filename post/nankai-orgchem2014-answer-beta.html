@@ -1,59 +1,48 @@
 <!DOCTYPE html>
-
-
-
-
-
-<html class="theme-next gemini use-motion" lang="zh-CN">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-<meta name="generator" content="Hexo 3.9.0">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.3.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next7.png?v=7.3.0">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next7.png?v=7.3.0">
-  <link rel="mask-icon" href="/images/logo.svg?v=7.3.0" color="#222">
+<meta name="generator" content="Hexo 3.9.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next7.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next7.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css?v=7.3.0">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+<link rel="stylesheet" href="/css/main.css">
 
 
-<script id="hexo.configurations">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
+    hostname: new URL('https://mchen.ink').hostname,
     root: '/',
     scheme: 'Gemini',
-    version: '7.3.0',
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
+    version: '7.7.1',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
     fancybox: false,
     mediumzoom: false,
     lazyload: false,
     pangu: false,
+    comments: {"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},
     algolia: {
-      applicationID: '',
+      appID: '',
       apiKey: '',
       indexName: '',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     },
     localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
-    search: {
-      root: '/',
-      path: 'search.xml'
-    },
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    translation: {
-      copy_button: '复制',
-      copy_success: '复制成功',
-      copy_failure: '复制失败'
-    }
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
   };
 </script>
 
@@ -64,17 +53,20 @@
 <meta property="og:site_name" content="Chen&#39;s Blog">
 <meta property="og:description" content="正在测试，仅供交流">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-29T13:54:24.547Z">
+<meta property="og:updated_time" content="2020-02-07T16:15:16.377Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="南开大学2014年有机化学试题参考答案_beta">
 <meta name="twitter:description" content="正在测试，仅供交流">
-  <link rel="alternate" href="/atom.xml" title="Chen's Blog" type="application/atom+xml">
-  <link rel="canonical" href="https://mchen.ink/post/nankai-orgchem2014-answer-beta">
+
+<link rel="canonical" href="https://mchen.ink/post/nankai-orgchem2014-answer-beta.html">
 
 
-<script id="page.configurations">
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
+    isHome: false,
+    isPost: true
   };
 </script>
 
@@ -86,11 +78,8 @@
 
 
 
-
-
   <noscript>
   <style>
-  .use-motion .motion-element,
   .use-motion .brand,
   .use-motion .menu-item,
   .sidebar-inner,
@@ -99,9 +88,8 @@
   .use-motion .comments,
   .use-motion .post-header,
   .use-motion .post-body,
-  .use-motion .collection-title { opacity: initial; }
+  .use-motion .collection-header { opacity: initial; }
 
-  .use-motion .logo,
   .use-motion .site-title,
   .use-motion .site-subtitle {
     opacity: initial;
@@ -115,16 +103,15 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
-
-  <div class="container sidebar-position-left page-post-detail">
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
   <div class="site-meta">
 
-    <div class="custom-logo-site-title">
+    <div>
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Chen's Blog</span>
@@ -132,236 +119,169 @@
       </a>
     </div>
         <p class="site-subtitle">Love life, love work.</p>
-      
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="切换导航栏">
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
   </div>
 </div>
-
 
 
 <nav class="site-nav">
-    <ul id="menu" class="menu">
-        
-        
-        
-          
-          <li class="menu-item menu-item-home">
-      
-    
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-archives">
-      
-    
+        <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-categories">
-      
-    
+        <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-tags">
-      
-    
+        <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-赞赏">
-      
-    
+        <li class="menu-item menu-item-赞赏">
 
-    <a href="/donate/" rel="section"><i class="menu-item-icon fa fa-fw fa-gift"></i> <br>赞赏</a>
+    <a href="/donate/" rel="section"><i class="fa fa-fw fa-gift"></i>赞赏</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-about">
-      
-    
+        <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
 
   </li>
-        <li class="menu-item menu-item-search">
-          <a href="javascript:;" class="popup-trigger">
-          
-            <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
-        </li>
-      
-    </ul>
-    <div class="site-search">
-      
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
-    </div>
-  </div>
-  <div id="local-search-result"></div>
-</div>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
 
-
-    </div>
 </nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
 
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
 </div>
     </header>
 
     
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
 
 
-    <main id="main" class="main">
+    <main class="main">
       <div class="main-inner">
         <div class="content-wrap">
+          
+
+          <div class="content">
             
 
-          <div id="content" class="content">
-            
-
-  <div id="posts" class="posts-expand">
-    
-    <div class="reading-progress-bar"></div>
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://mchen.ink/post/nankai-orgchem2014-answer-beta.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Noky Chen">
       <meta itemprop="description" content="I'll be fine.">
-      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Chen's Blog">
     </span>
       <header class="post-header">
-
-        
-          <h1 class="post-title" itemprop="name headline">南开大学2014年有机化学试题参考答案_beta
-
-              
-            
-          </h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          南开大学2014年有机化学试题参考答案_beta
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
+              <span class="post-meta-item-text">发表于</span>
 
               <time title="创建时间：2019-07-28 18:24:56" itemprop="dateCreated datePublished" datetime="2019-07-28T18:24:56+08:00">2019-07-28</time>
             </span>
-          
-            
-
-            
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-11-29 21:54:24" itemprop="dateModified" datetime="2019-11-29T21:54:24+08:00">2019-11-29</time>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-02-08 00:15:16" itemprop="dateModified" datetime="2020-02-08T00:15:16+08:00">2020-02-08</time>
               </span>
-            
-          
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/kaoyan/" itemprop="url" rel="index"><span itemprop="name">考研</span></a></span>
-
-                
-                
-              
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/kaoyan/" itemprop="url" rel="index">
+                    <span itemprop="name">考研</span>
+                  </a>
+                </span>
             </span>
-          
 
           
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon"
-              >
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
-                 阅读次数： 
-                <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
               </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
             </span>
-          
-            
   
   <span class="post-meta-item">
     
-    <span class="post-meta-item-icon">
-      <i class="fa fa-comment-o"></i>
-    </span>
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
     
-      <span class="post-meta-item-text">评论数：</span>
-    
-  
-    <a href="/post/nankai-orgchem2014-answer-beta.html#comments" itemprop="discussionUrl">
+    <a title="valine" href="/post/nankai-orgchem2014-answer-beta.html#valine-comments" itemprop="discussionUrl">
       <span class="post-comments-count valine-comment-count" data-xid="/post/nankai-orgchem2014-answer-beta.html" itemprop="commentCount"></span>
     </a>
   </span>
   
   
-          <br>
 
         </div>
       </header>
@@ -382,7 +302,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
     </div>
@@ -390,22 +310,19 @@ U2FsdGVkX1/SfcSNwDRFaKNfm9Rb4lXIBrchI6O6EftFx6Rqs7I72HdOTPkBoRiz/OJJ+d+LEKLjkrsC
     
     
     
-      <div>
-        <div id="reward-container">
+        <div class="reward-container">
   <div>不妨小额打赏支持，推荐右侧支付宝扫码领红包！<br>（邮件联系退款）</div>
-  <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
     打赏
   </button>
   <div id="qr" style="display: none;">
-        
       
-      <div style="display: inline-block">
+      <div style="display: inline-block;">
         <img src="/images/wechatpay.png" alt="Noky Chen 微信支付">
         <p>微信支付</p>
       </div>
-        
       
-      <div style="display: inline-block">
+      <div style="display: inline-block;">
         <img src="/images/alipay.png" alt="Noky Chen 支付宝">
         <p>支付宝</p>
       </div>
@@ -413,210 +330,176 @@ U2FsdGVkX1/SfcSNwDRFaKNfm9Rb4lXIBrchI6O6EftFx6Rqs7I72HdOTPkBoRiz/OJJ+d+LEKLjkrsC
   </div>
 </div>
 
-      </div>
-      <div>
         
 
+<div>
 <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>本文作者： </strong>Noky Chen</li>
+    <strong>本文作者： </strong>Noky Chen
+  </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     <a href="https://mchen.ink/post/nankai-orgchem2014-answer-beta.html" title="南开大学2014年有机化学试题参考答案_beta">https://mchen.ink/post/nankai-orgchem2014-answer-beta.html</a>
   </li>
   <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
 </ul>
+</div>
 
-      </div>
+        
 
-    <footer class="post-footer">
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-              <a href="/post/chrome-bookmark-autosave.html" rel="next" title="Chrome浏览器书签备份">
-                <i class="fa fa-chevron-left"></i> Chrome浏览器书签备份
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+            <div class="social-item">
+              <a target="_blank" class="social-link" href="/atom.xml">
+                <span class="icon">
+                  <i class="fa fa-rss"></i>
+                </span>
+
+                <span class="label">RSS</span>
               </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-              <a href="/post/windows-mklink-tutorial.html" rel="prev" title="mklink 命令的使用">
-                mklink 命令的使用 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-  </div>
-
-
-          </div>
-          
-    
-    <div class="comments" id="comments"></div>
-  
-
-
-        </div>
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+            </div>
     </div>
   </div>
 
-  <aside id="sidebar" class="sidebar">
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/post/chrome-bookmark-autosave.html" rel="prev" title="Chrome浏览器书签备份">
+      <i class="fa fa-chevron-left"></i> Chrome浏览器书签备份
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/post/windows-mklink-tutorial.html" rel="next" title="mklink 命令的使用">
+      mklink 命令的使用 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
     <div class="sidebar-inner">
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
 
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image"
-      src="/images/avatar.gif"
-      alt="Noky Chen">
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Noky Chen"
+      src="/images/avatar.gif">
   <p class="site-author-name" itemprop="name">Noky Chen</p>
-  <div class="site-description motion-element" itemprop="description">I'll be fine.</div>
+  <div class="site-description" itemprop="description">I'll be fine.</div>
 </div>
-  <nav class="site-state motion-element">
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
       <div class="site-state-item site-state-posts">
-        
           <a href="/archives/">
         
           <span class="site-state-item-count">12</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
-    
-      
-      
       <div class="site-state-item site-state-categories">
-        
-          
             <a href="/categories/">
           
-        
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
         <span class="site-state-item-count">5</span>
-        <span class="site-state-item-name">分类</span>
-        </a>
+        <span class="site-state-item-name">分类</span></a>
       </div>
-    
-      
-      
       <div class="site-state-item site-state-tags">
-        
-          
             <a href="/tags/">
           
-        
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        <span class="site-state-item-count">10</span>
-        <span class="site-state-item-name">标签</span>
-        </a>
+        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
-    
   </nav>
-  <div class="feed-link motion-element">
-    <a href="/atom.xml" rel="alternate">
-      <i class="fa fa-rss"></i>RSS
-    </a>
-  </div>
-  <div class="chat motion-element">
-    <a onclick="Chatra('openChat', true)">
-  <i class="fa fa-comment"></i>
-    留言
-  </a>
-  </div>
+</div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
-      
-      
-        
-      
-      
-        
-      
-        <a href="mailto:mchen19@163.com" title="E-Mail &rarr; mailto:mchen19@163.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+        <a href="mailto:mchen19@163.com" title="E-Mail → mailto:mchen19@163.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
       </span>
-    
       <span class="links-of-author-item">
-      
-      
-        
-      
-      
-        
-      
-        <a href="https://www.facebook.com/noky.chen" title="FB Page &rarr; https://www.facebook.com/noky.chen" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i>FB Page</a>
+        <a href="https://weibo.com/mchen19" title="Weibo → https://weibo.com/mchen19" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
       </span>
-    
   </div>
 
 
-  <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+  <div class="links-of-blogroll motion-element">
     <div class="links-of-blogroll-title">
-      <i class="fa  fa-fw fa-link"></i>
+      <i class="fa fa-fw fa-link"></i>
       Links
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
           <a href="https://projecteuler.net/" title="https://projecteuler.net/" rel="noopener" target="_blank">Project Euler</a>
         </li>
-      
         <li class="links-of-blogroll-item">
           <a href="http://skleoc.nankai.edu.cn/" title="http://skleoc.nankai.edu.cn/" rel="noopener" target="_blank">SKLEOC</a>
         </li>
-      
     </ul>
   </div>
 
-        </div>
       </div>
 
     </div>
@@ -627,28 +510,45 @@ U2FsdGVkX1/SfcSNwDRFaKNfm9Rb4lXIBrchI6O6EftFx6Rqs7I72HdOTPkBoRiz/OJJ+d+LEKLjkrsC
       </div>
     </main>
 
-    <footer id="footer" class="footer">
+    <footer class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2019 – <span itemprop="copyrightYear">2020</span>
-  <span class="with-love" id="animate">
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Noky Chen</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0
+  </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.3.0</div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.1
+  </div>
 
         
 <div class="busuanzi-count">
   <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-eye"></i>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
     </span>
-    <span class="site-pv" title="总访问量">
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
     </span>
-  
 </div>
 
 
@@ -658,47 +558,18 @@ U2FsdGVkX1/SfcSNwDRFaKNfm9Rb4lXIBrchI6O6EftFx6Rqs7I72HdOTPkBoRiz/OJJ+d+LEKLjkrsC
 
 
 
-        
       </div>
     </footer>
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-          <span id="scrollpercent"><span>0</span>%</span>
-        
-      </div>
-
-    
-
   </div>
 
   
-  <script src="/lib/jquery/index.js?v=3.4.1"></script>
-  <script src="/lib/reading_progress/reading_progress.js"></script>
-  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script>
 
-  <script src="/js/utils.js?v=7.3.0"></script>
-  <script src="/js/motion.js?v=7.3.0"></script>
-
-  
-  <script src="/js/affix.js?v=7.3.0"></script>
-  <script src="/js/schemes/pisces.js?v=7.3.0"></script>
-
-
-
-  
-  <script src="/js/scrollspy.js?v=7.3.0"></script>
-<script src="/js/post-details.js?v=7.3.0"></script>
-
-
-
-  <script src="/js/next-boot.js?v=7.3.0"></script>
-
-  
-
-  
-
-  
 
 
   
@@ -715,96 +586,53 @@ U2FsdGVkX1/SfcSNwDRFaKNfm9Rb4lXIBrchI6O6EftFx6Rqs7I72HdOTPkBoRiz/OJJ+d+LEKLjkrsC
 
 
 
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
 
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="/js/local-search.js?v=7.3.0"></script>
-
-
-
-  <script>
-    (function(d, w, c) {
-      w.ChatraID = '788A9PrGZWfxzvYWe';
-      var s = d.createElement('script');
-      w[c] = w[c] || function() {
-        (w[c].q = w[c].q || []).push(arguments);
-      };
-      s.async = true;
-      s.src = 'https://call.chatra.io/chatra.js';
-      if (d.head) d.head.appendChild(s);
-    })(document, window, 'Chatra');
-  </script>
-
-
-
-
-
-
-
 <script>
-if ($('body').find('pre.mermaid').length) {
-  $.ajax({
-    type: 'GET',
-    url: '//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js',
-    dataType: 'script',
-    cache: true,
-    success: function() {
-      mermaid.initialize({
-        theme: 'forest',
-        logLevel: 3,
-        flowchart: { curve: 'linear' },
-        gantt: { axisFormat: '%m/%d/%Y' },
-        sequence: { actorMargin: 50 }
-      });
-    }
-  });
-}
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//cdnjs.cloudflare.com/ajax/libs/valine/1.3.10/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el: '#valine-comments',
+      verify: true,
+      notify: true,
+      appId: 'TYRrTydhG7uEXzs28AbF70u7-gzGzoHsz',
+      appKey: '2lvpikWdH33GSPTF4bczQLxp',
+      placeholder: "Just go go",
+      avatar: 'retro',
+      meta: guest,
+      pageSize: '10' || 10,
+      visitor: false,
+      lang: '' || 'zh-cn',
+      path: location.pathname,
+      recordIP: true,
+      serverURLs: ''
+    });
+  }, window.Valine);
+});
 </script>
-
-
-
-    
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-
-<script>
-  var GUEST = ['nick', 'mail', 'link'];
-  var guest = 'nick,mail,link';
-  guest = guest.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#comments',
-    verify: true,
-    notify: true,
-    appId: 'TYRrTydhG7uEXzs28AbF70u7-gzGzoHsz',
-    appKey: '2lvpikWdH33GSPTF4bczQLxp',
-    placeholder: 'Just go go',
-    avatar: 'retro',
-    meta: guest,
-    pageSize: '10' || 10,
-    visitor: false,
-    lang: 'zh-cn' || 'zh-cn'
-  });
-</script>
-
 
 </body>
 </html>
