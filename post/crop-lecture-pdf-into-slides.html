@@ -47,18 +47,18 @@
   };
 </script>
 
-  <meta name="description" content="方案：将PDF输出为图片，把图片批量裁剪后合并为PDF 平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick 12345for /l %%x in (1, 1, 106) do (   echo %%x   magick convert test_%%x.png -crop 1495x1120+492+464 tmp/img%%x-1.pn">
+  <meta name="description" content="方案：将PDF输出为图片，把图片批量裁剪后合并为PDF 平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick">
 <meta name="keywords" content="PDF">
 <meta property="og:type" content="article">
 <meta property="og:title" content="把该死的「多页打印」PDF课件转为单页">
 <meta property="og:url" content="https://mchen.ink/post/crop-lecture-pdf-into-slides.html">
 <meta property="og:site_name" content="Chen&#39;s Blog">
-<meta property="og:description" content="方案：将PDF输出为图片，把图片批量裁剪后合并为PDF 平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick 12345for /l %%x in (1, 1, 106) do (   echo %%x   magick convert test_%%x.png -crop 1495x1120+492+464 tmp/img%%x-1.pn">
+<meta property="og:description" content="方案：将PDF输出为图片，把图片批量裁剪后合并为PDF 平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-12-28T12:50:37.314Z">
+<meta property="og:updated_time" content="2020-02-13T10:01:59.767Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="把该死的「多页打印」PDF课件转为单页">
-<meta name="twitter:description" content="方案：将PDF输出为图片，把图片批量裁剪后合并为PDF 平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick 12345for /l %%x in (1, 1, 106) do (   echo %%x   magick convert test_%%x.png -crop 1495x1120+492+464 tmp/img%%x-1.pn">
+<meta name="twitter:description" content="方案：将PDF输出为图片，把图片批量裁剪后合并为PDF 平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick">
 
 <link rel="canonical" href="https://mchen.ink/post/crop-lecture-pdf-into-slides.html">
 
@@ -248,7 +248,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-12-28 20:50:37" itemprop="dateModified" datetime="2019-12-28T20:50:37+08:00">2019-12-28</time>
+                <time title="修改时间：2020-02-13 18:01:59" itemprop="dateModified" datetime="2020-02-13T18:01:59+08:00">2020-02-13</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -302,6 +302,7 @@
       
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>方案：将PDF输出为图片，把图片批量裁剪后合并为PDF</p>
 <p>平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick</p>
+ <a id="more"></a> 
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> /l %%x <span class="keyword">in</span> (<span class="number">1</span>, <span class="number">1</span>, <span class="number">106</span>) <span class="keyword">do</span> (</span><br><span class="line">   echo %%x</span><br><span class="line">   magick convert test_%%x.png -crop <span class="number">1495</span>x1120+<span class="number">492</span>+<span class="number">464</span> tmp/img%%x-<span class="number">1</span>.png</span><br><span class="line">   magick convert test_%%x.png -crop <span class="number">1495</span>x1120+<span class="number">492</span>+<span class="number">1924</span> tmp/img%%x-<span class="number">2</span>.png</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
 <p><strong>细节待续</strong></p>
 
