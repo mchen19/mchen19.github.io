@@ -5,9 +5,9 @@
   <subtitle>Love life, love work.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://blog.mchen.xyz/"/>
+  <link href="https://mchen.xyz/"/>
   <updated>2020-02-13T10:05:43.415Z</updated>
-  <id>https://blog.mchen.xyz/</id>
+  <id>https://mchen.xyz/</id>
   
   <author>
     <name>Noky Chen</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>「考古存档」“你写论文时发现了哪些神网站？”之有机化学篇</title>
-    <link href="https://blog.mchen.xyz/post/organic-chemistry-websites.html"/>
-    <id>https://blog.mchen.xyz/post/organic-chemistry-websites.html</id>
+    <link href="https://mchen.xyz/post/organic-chemistry-websites.html"/>
+    <id>https://mchen.xyz/post/organic-chemistry-websites.html</id>
     <published>2020-02-13T09:38:51.000Z</published>
     <updated>2020-02-13T10:05:43.415Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>office365-installation-guide</title>
-    <link href="https://blog.mchen.xyz/post/office365-installation-guide.html"/>
-    <id>https://blog.mchen.xyz/post/office365-installation-guide.html</id>
+    <link href="https://mchen.xyz/post/office365-installation-guide.html"/>
+    <id>https://mchen.xyz/post/office365-installation-guide.html</id>
     <published>2020-02-04T08:31:08.000Z</published>
     <updated>2020-02-04T08:38:44.108Z</updated>
     
@@ -56,14 +56,14 @@
     </summary>
     
     
-      <category term="Office" scheme="https://blog.mchen.xyz/tags/Office/"/>
+      <category term="Office" scheme="https://mchen.xyz/tags/Office/"/>
     
   </entry>
   
   <entry>
     <title>第一份年志</title>
-    <link href="https://blog.mchen.xyz/post/summary-2019.html"/>
-    <id>https://blog.mchen.xyz/post/summary-2019.html</id>
+    <link href="https://mchen.xyz/post/summary-2019.html"/>
+    <id>https://mchen.xyz/post/summary-2019.html</id>
     <published>2019-12-31T15:46:02.000Z</published>
     <updated>2019-12-31T18:04:12.049Z</updated>
     
@@ -73,19 +73,19 @@
     
     </summary>
     
-      <category term="年志" scheme="https://blog.mchen.xyz/categories/%E5%B9%B4%E5%BF%97/"/>
+      <category term="年志" scheme="https://mchen.xyz/categories/%E5%B9%B4%E5%BF%97/"/>
     
     
-      <category term="年志" scheme="https://blog.mchen.xyz/tags/%E5%B9%B4%E5%BF%97/"/>
+      <category term="年志" scheme="https://mchen.xyz/tags/%E5%B9%B4%E5%BF%97/"/>
     
-      <category term="回忆" scheme="https://blog.mchen.xyz/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="https://mchen.xyz/tags/%E5%9B%9E%E5%BF%86/"/>
     
   </entry>
   
   <entry>
     <title>&#39;linux-learning&#39;</title>
-    <link href="https://blog.mchen.xyz/post/linux-learning.html"/>
-    <id>https://blog.mchen.xyz/post/linux-learning.html</id>
+    <link href="https://mchen.xyz/post/linux-learning.html"/>
+    <id>https://mchen.xyz/post/linux-learning.html</id>
     <published>2019-11-22T16:44:47.000Z</published>
     <updated>2019-11-22T16:44:48.030Z</updated>
     
@@ -106,8 +106,8 @@
   
   <entry>
     <title>把该死的「多页打印」PDF课件转为单页</title>
-    <link href="https://blog.mchen.xyz/post/crop-lecture-pdf-into-slides.html"/>
-    <id>https://blog.mchen.xyz/post/crop-lecture-pdf-into-slides.html</id>
+    <link href="https://mchen.xyz/post/crop-lecture-pdf-into-slides.html"/>
+    <id>https://mchen.xyz/post/crop-lecture-pdf-into-slides.html</id>
     <published>2019-11-04T13:25:20.000Z</published>
     <updated>2020-02-13T10:01:59.767Z</updated>
     
@@ -118,19 +118,19 @@
     
     </summary>
     
-      <category term="Computer Skills" scheme="https://blog.mchen.xyz/categories/computer-skills/"/>
+      <category term="Computer Skills" scheme="https://mchen.xyz/categories/computer-skills/"/>
     
-      <category term="文档处理" scheme="https://blog.mchen.xyz/categories/computer-skills/%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86/"/>
+      <category term="文档处理" scheme="https://mchen.xyz/categories/computer-skills/%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86/"/>
     
     
-      <category term="PDF" scheme="https://blog.mchen.xyz/tags/PDF/"/>
+      <category term="PDF" scheme="https://mchen.xyz/tags/PDF/"/>
     
   </entry>
   
   <entry>
     <title>mklink 命令的使用</title>
-    <link href="https://blog.mchen.xyz/post/windows-mklink-tutorial.html"/>
-    <id>https://blog.mchen.xyz/post/windows-mklink-tutorial.html</id>
+    <link href="https://mchen.xyz/post/windows-mklink-tutorial.html"/>
+    <id>https://mchen.xyz/post/windows-mklink-tutorial.html</id>
     <published>2019-08-21T10:29:48.000Z</published>
     <updated>2019-12-28T12:51:24.645Z</updated>
     
@@ -146,17 +146,17 @@
     
     </summary>
     
-      <category term="Computer Skills" scheme="https://blog.mchen.xyz/categories/computer-skills/"/>
+      <category term="Computer Skills" scheme="https://mchen.xyz/categories/computer-skills/"/>
     
     
-      <category term="计算机技巧" scheme="https://blog.mchen.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E5%B7%A7/"/>
+      <category term="计算机技巧" scheme="https://mchen.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
   <entry>
     <title>南开大学2014年有机化学试题参考答案_beta</title>
-    <link href="https://blog.mchen.xyz/post/nankai-orgchem2014-answer-beta.html"/>
-    <id>https://blog.mchen.xyz/post/nankai-orgchem2014-answer-beta.html</id>
+    <link href="https://mchen.xyz/post/nankai-orgchem2014-answer-beta.html"/>
+    <id>https://mchen.xyz/post/nankai-orgchem2014-answer-beta.html</id>
     <published>2019-07-28T10:24:56.000Z</published>
     <updated>2020-02-07T16:15:16.377Z</updated>
     
@@ -166,15 +166,15 @@
     
     </summary>
     
-      <category term="考研" scheme="https://blog.mchen.xyz/categories/kaoyan/"/>
+      <category term="考研" scheme="https://mchen.xyz/categories/kaoyan/"/>
     
     
   </entry>
   
   <entry>
     <title>Chrome浏览器书签备份</title>
-    <link href="https://blog.mchen.xyz/post/chrome-bookmark-autosave.html"/>
-    <id>https://blog.mchen.xyz/post/chrome-bookmark-autosave.html</id>
+    <link href="https://mchen.xyz/post/chrome-bookmark-autosave.html"/>
+    <id>https://mchen.xyz/post/chrome-bookmark-autosave.html</id>
     <published>2019-03-01T16:10:46.000Z</published>
     <updated>2020-02-07T16:14:53.915Z</updated>
     
@@ -190,17 +190,17 @@
     
     </summary>
     
-      <category term="Computer Skills" scheme="https://blog.mchen.xyz/categories/computer-skills/"/>
+      <category term="Computer Skills" scheme="https://mchen.xyz/categories/computer-skills/"/>
     
     
-      <category term="Chrome" scheme="https://blog.mchen.xyz/tags/Chrome/"/>
+      <category term="Chrome" scheme="https://mchen.xyz/tags/Chrome/"/>
     
   </entry>
   
   <entry>
     <title>有机化学考研每日一题 v2</title>
-    <link href="https://blog.mchen.xyz/post/orc-daily-questions-v2.html"/>
-    <id>https://blog.mchen.xyz/post/orc-daily-questions-v2.html</id>
+    <link href="https://mchen.xyz/post/orc-daily-questions-v2.html"/>
+    <id>https://mchen.xyz/post/orc-daily-questions-v2.html</id>
     <published>2019-02-10T09:33:59.000Z</published>
     <updated>2020-02-07T16:15:53.608Z</updated>
     
@@ -216,19 +216,19 @@
     
     </summary>
     
-      <category term="考研" scheme="https://blog.mchen.xyz/categories/kaoyan/"/>
+      <category term="考研" scheme="https://mchen.xyz/categories/kaoyan/"/>
     
     
-      <category term="考研" scheme="https://blog.mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
+      <category term="考研" scheme="https://mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
     
-      <category term="有机化学" scheme="https://blog.mchen.xyz/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+      <category term="有机化学" scheme="https://mchen.xyz/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>有机化学考研每日一题 v1</title>
-    <link href="https://blog.mchen.xyz/post/orc-daily-questions-v1.html"/>
-    <id>https://blog.mchen.xyz/post/orc-daily-questions-v1.html</id>
+    <link href="https://mchen.xyz/post/orc-daily-questions-v1.html"/>
+    <id>https://mchen.xyz/post/orc-daily-questions-v1.html</id>
     <published>2019-02-09T03:32:11.000Z</published>
     <updated>2019-02-09T03:32:11.000Z</updated>
     
@@ -238,19 +238,19 @@
     
     </summary>
     
-      <category term="考研" scheme="https://blog.mchen.xyz/categories/kaoyan/"/>
+      <category term="考研" scheme="https://mchen.xyz/categories/kaoyan/"/>
     
     
-      <category term="考研" scheme="https://blog.mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
+      <category term="考研" scheme="https://mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
     
-      <category term="有机化学" scheme="https://blog.mchen.xyz/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+      <category term="有机化学" scheme="https://mchen.xyz/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>南开大学2016年有机化学试题参考答案_beta</title>
-    <link href="https://blog.mchen.xyz/post/nankai-orgchem2016-answer-beta.html"/>
-    <id>https://blog.mchen.xyz/post/nankai-orgchem2016-answer-beta.html</id>
+    <link href="https://mchen.xyz/post/nankai-orgchem2016-answer-beta.html"/>
+    <id>https://mchen.xyz/post/nankai-orgchem2016-answer-beta.html</id>
     <published>2019-02-01T09:44:29.000Z</published>
     <updated>2020-02-07T16:15:24.556Z</updated>
     
@@ -260,19 +260,19 @@
     
     </summary>
     
-      <category term="考研" scheme="https://blog.mchen.xyz/categories/kaoyan/"/>
+      <category term="考研" scheme="https://mchen.xyz/categories/kaoyan/"/>
     
     
-      <category term="考研" scheme="https://blog.mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
+      <category term="考研" scheme="https://mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
     
-      <category term="有机化学" scheme="https://blog.mchen.xyz/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+      <category term="有机化学" scheme="https://mchen.xyz/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>南开大学化学学院考研资料共享</title>
-    <link href="https://blog.mchen.xyz/post/nku-chem-ky.html"/>
-    <id>https://blog.mchen.xyz/post/nku-chem-ky.html</id>
+    <link href="https://mchen.xyz/post/nku-chem-ky.html"/>
+    <id>https://mchen.xyz/post/nku-chem-ky.html</id>
     <published>2019-01-07T14:59:22.000Z</published>
     <updated>2020-02-24T08:33:53.817Z</updated>
     
@@ -282,19 +282,19 @@
     
     </summary>
     
-      <category term="考研" scheme="https://blog.mchen.xyz/categories/kaoyan/"/>
+      <category term="考研" scheme="https://mchen.xyz/categories/kaoyan/"/>
     
     
-      <category term="化学" scheme="https://blog.mchen.xyz/tags/%E5%8C%96%E5%AD%A6/"/>
+      <category term="化学" scheme="https://mchen.xyz/tags/%E5%8C%96%E5%AD%A6/"/>
     
-      <category term="考研" scheme="https://blog.mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
+      <category term="考研" scheme="https://mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
     
   </entry>
   
   <entry>
     <title>Hexo 博客搭建纪实</title>
-    <link href="https://blog.mchen.xyz/post/hexo-blog-setup.html"/>
-    <id>https://blog.mchen.xyz/post/hexo-blog-setup.html</id>
+    <link href="https://mchen.xyz/post/hexo-blog-setup.html"/>
+    <id>https://mchen.xyz/post/hexo-blog-setup.html</id>
     <published>2019-01-07T14:00:00.000Z</published>
     <updated>2019-02-10T04:00:00.000Z</updated>
     
@@ -304,12 +304,12 @@
     
     </summary>
     
-      <category term="Computer Skills" scheme="https://blog.mchen.xyz/categories/computer-skills/"/>
+      <category term="Computer Skills" scheme="https://mchen.xyz/categories/computer-skills/"/>
     
-      <category term="Hexo 博客" scheme="https://blog.mchen.xyz/categories/computer-skills/hexo-blog/"/>
+      <category term="Hexo 博客" scheme="https://mchen.xyz/categories/computer-skills/hexo-blog/"/>
     
     
-      <category term="Hexo" scheme="https://blog.mchen.xyz/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://mchen.xyz/tags/Hexo/"/>
     
   </entry>
   
