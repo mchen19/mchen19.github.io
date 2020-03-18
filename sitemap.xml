@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mchen.xyz/post/windows-mklink-tutorial.html</loc>
+    
+    <lastmod>2020-03-16T15:10:20.721Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mchen.xyz/post/chrome-bookmark-autosave.html</loc>
     
     <lastmod>2020-03-16T12:03:36.611Z</lastmod>
@@ -75,13 +82,6 @@
     <loc>https://mchen.xyz/post/summary-2019.html</loc>
     
     <lastmod>2019-12-31T18:04:12.049Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mchen.xyz/post/windows-mklink-tutorial.html</loc>
-    
-    <lastmod>2019-12-28T12:51:24.645Z</lastmod>
     
   </url>
   
