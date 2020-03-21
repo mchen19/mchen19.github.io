@@ -272,7 +272,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -588,7 +588,7 @@ U2FsdGVkX186o0+SvbHABsdytVbnTNxOxnMGBRrWcP1/PCWyUok6NsPsG7EDG1PAzkZW45IM50j8ksLW
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -713,7 +713,90 @@ U2FsdGVkX19oPQ+jWDsHElUheW5sjwOZjqdCKjKctznX327JSYSD7VX1HYuj5WXjH0/7LxIFSCwbd6Bb
 <li><a href="https://pan.baidu.com/s/1aMmaAQ0BDWlQU92yfTTKXQ" target="_blank" rel="noopener">南开大学化学院2018年初试分数排名</a> KEY: <code>t9c0</code> </li>
 <li><a href="https://pan.baidu.com/s/1nd3ESYnqq5K-PZjBW0xfCA" target="_blank" rel="noopener">南开大学化学院2019年初试分数排名</a> KEY: <code>4iwl</code> </li>
 </ul>
-<h2 id="各年考研录取概况（统考）"><a href="#各年考研录取概况（统考）" class="headerlink" title="各年考研录取概况（统考）"></a>各年考研录取概况（统考）</h2><div class="tabs" id="录取概况"><ul class="nav-tabs"><li class="tab active"><a href="#录取概况-1">2019年</a></li><li class="tab"><a href="#录取概况-2">2018年</a></li><li class="tab"><a href="#录取概况-3">2017年</a></li><li class="tab"><a href="#录取概况-4">2016年</a></li></ul><div class="tab-content"><div class="tab-pane active" id="录取概况-1"><table>
+<h2 id="各年考研录取概况（统考）"><a href="#各年考研录取概况（统考）" class="headerlink" title="各年考研录取概况（统考）"></a>各年考研录取概况（统考）</h2><div class="tabs" id="录取概况"><ul class="nav-tabs"><li class="tab active"><a href="#录取概况-1">2020年</a></li><li class="tab"><a href="#录取概况-2">2019年</a></li><li class="tab"><a href="#录取概况-3">2018年</a></li><li class="tab"><a href="#录取概况-4">2017年</a></li><li class="tab"><a href="#录取概况-5">2016年</a></li></ul><div class="tab-content"><div class="tab-pane active" id="录取概况-1"><table>
+<thead>
+<tr>
+<th style="text-align:center">报考专业</th>
+<th style="text-align:center">报考</th>
+<th style="text-align:center">录取</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">070301 (无机化学)</td>
+<td style="text-align:center">61</td>
+<td style="text-align:center">–</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">070302 (分析化学)</td>
+<td style="text-align:center">49</td>
+<td style="text-align:center">–</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">070303 (有机化学)</td>
+<td style="text-align:center">238</td>
+<td style="text-align:center">–</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">070304 (物理化学)</td>
+<td style="text-align:center">75</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">070305 (高分子化学与物理)</td>
+<td style="text-align:center">69</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">0703Z1 (化学生物学)</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">0703Z2 (精细化学品化学)</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">085600 (材料与化工)</td>
+<td style="text-align:center">99</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">090401 (植物病理学)</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">090402 (农业昆虫与害虫防治)</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">090403 (农药学)</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">095100 (农业)</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>按分数排名得报考人数</p></div><div class="tab-pane" id="录取概况-2"><table>
 <thead>
 <tr>
 <th style="text-align:center">报考专业</th>
@@ -796,7 +879,7 @@ U2FsdGVkX19oPQ+jWDsHElUheW5sjwOZjqdCKjKctznX327JSYSD7VX1HYuj5WXjH0/7LxIFSCwbd6Bb
 </tr>
 </tbody>
 </table>
-<p>按分数排名得报考人数</p></div><div class="tab-pane" id="录取概况-2"><table>
+<p>按分数排名得报考人数</p></div><div class="tab-pane" id="录取概况-3"><table>
 <thead>
 <tr>
 <th style="text-align:center">报考专业</th>
@@ -861,7 +944,7 @@ U2FsdGVkX19oPQ+jWDsHElUheW5sjwOZjqdCKjKctznX327JSYSD7VX1HYuj5WXjH0/7LxIFSCwbd6Bb
 </tr>
 </tbody>
 </table>
-<p>按分数排名得报考人数</p></div><div class="tab-pane" id="录取概况-3"><table>
+<p>按分数排名得报考人数</p></div><div class="tab-pane" id="录取概况-4"><table>
 <thead>
 <tr>
 <th style="text-align:center">报考专业</th>
@@ -926,7 +1009,7 @@ U2FsdGVkX19oPQ+jWDsHElUheW5sjwOZjqdCKjKctznX327JSYSD7VX1HYuj5WXjH0/7LxIFSCwbd6Bb
 </tr>
 </tbody>
 </table>
-<p>来自官网数据</p></div><div class="tab-pane" id="录取概况-4"><table>
+<p>来自官网数据</p></div><div class="tab-pane" id="录取概况-5"><table>
 <thead>
 <tr>
 <th style="text-align:center">报考专业</th>
@@ -1010,8 +1093,8 @@ U2FsdGVkX19oPQ+jWDsHElUheW5sjwOZjqdCKjKctznX327JSYSD7VX1HYuj5WXjH0/7LxIFSCwbd6Bb
         <category>考研</category>
       </categories>
       <tags>
-        <tag>化学</tag>
         <tag>考研</tag>
+        <tag>化学</tag>
       </tags>
   </entry>
   <entry>
