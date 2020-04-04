@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>&#39;chemtk&#39;</title>
+    <url>/post/chemtk.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="文献类"><a href="#文献类" class="headerlink" title="文献类"></a>文献类</h1><ul>
+<li><a href="http://chemsearch.kovsky.net/" target="_blank" rel="noopener">Chemistry Reference Resolver</a> </li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Beancount 记账——起步</title>
+    <url>/post/beancount.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>第一次记账，那还是很久之前的事了。最开始是中学时候使用烂笔头记账，当然主要是生活开销啊，后来记着记着就记不动了；之后是大学突然心血来潮用Excel记账，然后就没有然后了……</p>
+<p>这次无限量续费的假期中，看着支付宝账单，我又动了记账的想法。这次不是膨胀，不是一时的心血来潮，而是有计划、有目的地训练自己的记账习惯和记账方式，最终确暂时确定了以Beancount为主的记账方式。</p>
+<p>在记账之前，首先需要一个好的记账工具，在大致地了解一些常用的记账软件后，Beancount很好地抓住了处女座的痛点：</p>
+<ul>
+<li>免费，自定义程度高：好用的软件当然不便宜，比如财智8，看了看价格就不想继续了解了；</li>
+<li>纯文本记账：账单数据存储在本地，并且是可读的，所以不会存在软件停止开发了账单数据怎么处理的问题；</li>
+<li>自动化程度：Beancount可以导入账单，这才是可以坚持记下去的原因啊.</li>
+</ul>
+<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><p>在参考了一些文档<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount Users's Manual](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA)
+">[1]</span></a></sup><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount复式记账：接地气的Why and How](https://blog.zsxsoft.com/post/41) from [zsx's Blog](https://blog.zsxsoft.com/) 
+">[2]</span></a></sup><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount复式记账（一）：为什么](https://www.byvoid.com/zhs/blog/beancount-bookkeeping-1) from [BYVoid](https://www.byvoid.com/zhs/) 
+">[3]</span></a></sup><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount —— 命令行复式簿记](https://wzyboy.im/post/1063.html) from [wzyboy’s blog](https://wzyboy.im/) 
+">[4]</span></a></sup><sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount使用经验](http://lidongchao.com/2018/07/20/has_header_in_csv_Sniffer/) from [LeeDC Blog](http://lidongchao.com/) ">[5]</span></a></sup>后，我在 Windows 10 上尝试安装了 Beancount 软件，当然，没有安装成功——好像大佬们都是Linux用户，Windows上的安装官方也有给出指导：</p>
+<p><img src="./beancount/installation-win.png" alt="Windows Install"></p>
+<p>然而我的笔记本上装有WSL，所以就直接省事儿用WSL版的。（ps. LxRunOffline 是一个可以安装、管理WSL(Win­dows Sub­sys­tem for Linux)的软件）</p>
+<h1 id="我的工作流"><a href="#我的工作流" class="headerlink" title="我的工作流"></a>我的工作流</h1><p>良好的支付习惯可以为记账开一个好头，目前我的选择是：</p>
+<ul>
+<li>使用支付宝作为主要的支付手段，微信作为辅助（尽量少用）；</li>
+<li>各银行卡仅用作转账工具，消费不直接从银行卡扣款，因为支付宝的帐号信息更详尽一些；</li>
+<li>关闭花呗、余额宝、零钱通，简化账单；</li>
+<li>现金使用<strong>纯记账</strong><sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[纯记账](https://www.chunjizhang.com/) 
+">[6]</span></a></sup>管理，对账日统计到账本上.</li>
+</ul>
+<p>按照这样的习惯进行日常支付，每个月整理一次账单。在对账日从支付宝、微信和各银行网银下载账单后，参考前人的做法导入账单即可。</p>
+<p>除了一般的收支流水，Beancount也可以管理证券交易、做预算等等，Beancount也在不断成长中。对<a href="https://zhuanlan.zhihu.com/p/58264923" target="_blank" rel="noopener">这里</a><sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[ 用Python抓取天天基金网基金历史净值数据](https://zhuanlan.zhihu.com/p/58264923) ">[7]</span></a></sup>抓取基金净值的代码稍加修改，就可以把基金市价合并到账簿里了。 </p>
+<h1 id="Appendix-A-纯记账"><a href="#Appendix-A-纯记账" class="headerlink" title="Appendix A. 纯记账"></a>Appendix A. 纯记账</h1><p>纯记账这个软件也不错，是移动端我比较偏爱的，其可以搭配坚果云同步账单数据。但是在记录上对比纯文本记账略有不足，比如网购账单拆分、AA付款这种设计三个以上帐户的记录就显得捉襟见肘，目前我主要用它管理现金账单。</p>
+<p><img src="./beancount/six-accountbook.png" alt="纯记账"></p>
+<h1 id="Appendix-B-Microsoft-Excel-Money"><a href="#Appendix-B-Microsoft-Excel-Money" class="headerlink" title="Appendix B. Microsoft Excel - Money"></a>Appendix B. Microsoft Excel - Money</h1><p>本月下旬 Microsoft 正式将 Office 365 更名为Microsoft 365（见<a href="https://card.weibo.com/article/m/show/id/2309404488960649855279" target="_blank" rel="noopener">咨询</a>），折回倒是加量不加价，其中一个有意思的功能是 Excel Money，其支持与银行账户、信用卡信息关联，可以自动导入交易和账户余额等信息，然而中国区是否会有这个功能还不知道，等等看。</p>
+<p><img src="./beancount/microsoft-money.gif" alt="Microsoft Money"></p>
+<h1 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h1><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA" target="_blank" rel="noopener">Beancount Users’s Manual</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://blog.zsxsoft.com/post/41" target="_blank" rel="noopener">Beancount复式记账：接地气的Why and How</a> from <a href="https://blog.zsxsoft.com/" target="_blank" rel="noopener">zsx’s Blog</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.byvoid.com/zhs/blog/beancount-bookkeeping-1" target="_blank" rel="noopener">Beancount复式记账（一）：为什么</a> from <a href="https://www.byvoid.com/zhs/" target="_blank" rel="noopener">BYVoid</a><a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://wzyboy.im/post/1063.html" target="_blank" rel="noopener">Beancount —— 命令行复式簿记</a> from <a href="https://wzyboy.im/" target="_blank" rel="noopener">wzyboy’s blog</a><a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="http://lidongchao.com/2018/07/20/has_header_in_csv_Sniffer/" target="_blank" rel="noopener">Beancount使用经验</a> from <a href="http://lidongchao.com/" target="_blank" rel="noopener">LeeDC Blog</a><a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.chunjizhang.com/" target="_blank" rel="noopener">纯记账</a><a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://zhuanlan.zhihu.com/p/58264923" target="_blank" rel="noopener"> 用Python抓取天天基金网基金历史净值数据</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+  </entry>
+  <entry>
     <title>「考古存档」“你写论文时发现了哪些神网站？”之有机化学篇</title>
     <url>/post/organic-chemistry-websites.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
@@ -168,13 +210,35 @@
 ]]></content>
   </entry>
   <entry>
-    <title>office365-installation-guide</title>
+    <title>Office365 不完全安装指南</title>
     <url>/post/office365-installation-guide.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>希望有一天我的笔记本性能足够好，希望有一天Windows平台有完美的安装包管理器以及舒爽的安装体验。</p>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
+<p>适用症：</p>
+<ul>
+<li>较老款的笔记本，“C盘不装软件患者”；</li>
+<li>网络不好的地区，无法使用在线安装；</li>
+<li>深度处女座。</li>
+</ul>
+<p>适用范围：Office 2019及之后需要 click-to-run 安装的版本。</p>
+</blockquote>
+<p>[toc]</p>
+<ul>
+<li>下载离线安装包</li>
+<li>配置文件（两种选择，选择官方的，或者用Officeplus，后者有界面比较好使）</li>
+<li>安装，指定盘符；指定组件均在配置文件中；</li>
+<li>试用移动版</li>
+<li></li>
+</ul>
+<p>希望有一天我的笔记本性能足够好，希望有一天Windows平台有完美的安装包管理器以及舒爽的安装体验。</p>
 <p>对</p>
+<p>其实吡吡了这么多，无非就是一句字——「穷」。</p>
 ]]></content>
+      <categories>
+        <category>Computer Skills</category>
+      </categories>
       <tags>
         <tag>Office</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -218,11 +282,6 @@
       </tags>
   </entry>
   <entry>
-    <title>&#39;linux-learning&#39;</title>
-    <url>/post/linux-learning.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
     <title>把该死的「多页打印」PDF课件转为单页</title>
     <url>/post/crop-lecture-pdf-into-slides.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>方案：将PDF输出为图片，把图片批量裁剪后合并为PDF</p>
@@ -262,7 +321,7 @@
   <entry>
     <title>南开大学2014年有机化学试题参考答案_beta</title>
     <url>/post/nankai-orgchem2014-answer-beta.html</url>
-    <content><![CDATA[<div id="hbe-security">
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div id="hbe-security">
   <div class="hbe-input-container">
   <input type="password" class="hbe-form-control" id="pass" placeholder="请输入查看密码：" />
     <label for="pass">请输入查看密码：</label>
@@ -272,7 +331,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -578,7 +637,7 @@ U2FsdGVkX1+hR03mYCmy+GQ59/GzBGth792weDteBgy7x+r0Bqft7TS6l6H1y00EkWPDlQdP0VxYcAZs
   <entry>
     <title>南开大学2016年有机化学试题参考答案_beta</title>
     <url>/post/nankai-orgchem2016-answer-beta.html</url>
-    <content><![CDATA[<div id="hbe-security">
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div id="hbe-security">
   <div class="hbe-input-container">
   <input type="password" class="hbe-form-control" id="pass" placeholder="请输入查看密码：" />
     <label for="pass">请输入查看密码：</label>
@@ -588,7 +647,7 @@ U2FsdGVkX1+hR03mYCmy+GQ59/GzBGth792weDteBgy7x+r0Bqft7TS6l6H1y00EkWPDlQdP0VxYcAZs
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -1093,8 +1152,8 @@ U2FsdGVkX181yboQVT5pls9PaR7h6ET+Q4MY3W3GJSN0tWm5NhPxFtHBdGyIusPTShP4VAAor1/bNvMf
         <category>考研</category>
       </categories>
       <tags>
-        <tag>化学</tag>
         <tag>考研</tag>
+        <tag>化学</tag>
       </tags>
   </entry>
   <entry>

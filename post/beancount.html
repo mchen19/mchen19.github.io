@@ -47,20 +47,23 @@
   };
 </script>
 
-  <meta name="description" content="方案：将PDF输出为图片，把图片批量裁剪后合并为PDF 平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick">
-<meta name="keywords" content="PDF">
+  <meta name="description" content="第一次记账，那还是很久之前的事了。最开始是中学时候使用烂笔头记账，当然主要是生活开销啊，后来记着记着就记不动了；之后是大学突然心血来潮用Excel记账，然后就没有然后了…… 这次无限量续费的假期中，看着支付宝账单，我又动了记账的想法。这次不是膨胀，不是一时的心血来潮，而是有计划、有目的地训练自己的记账习惯和记账方式，最终确暂时确定了以Beancount为主的记账方式。 在记账之前，首先需要一个好的">
 <meta property="og:type" content="article">
-<meta property="og:title" content="把该死的「多页打印」PDF课件转为单页">
-<meta property="og:url" content="https://mchen.xyz/post/crop-lecture-pdf-into-slides.html">
+<meta property="og:title" content="Beancount 记账——起步">
+<meta property="og:url" content="https://mchen.xyz/post/beancount.html">
 <meta property="og:site_name" content="南村杂货铺">
-<meta property="og:description" content="方案：将PDF输出为图片，把图片批量裁剪后合并为PDF 平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick">
+<meta property="og:description" content="第一次记账，那还是很久之前的事了。最开始是中学时候使用烂笔头记账，当然主要是生活开销啊，后来记着记着就记不动了；之后是大学突然心血来潮用Excel记账，然后就没有然后了…… 这次无限量续费的假期中，看着支付宝账单，我又动了记账的想法。这次不是膨胀，不是一时的心血来潮，而是有计划、有目的地训练自己的记账习惯和记账方式，最终确暂时确定了以Beancount为主的记账方式。 在记账之前，首先需要一个好的">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-02-13T10:01:59.767Z">
+<meta property="og:image" content="https://mchen.xyz/post/beancount/installation-win.png">
+<meta property="og:image" content="https://mchen.xyz/post/beancount/six-accountbook.png">
+<meta property="og:image" content="https://mchen.xyz/post/beancount/microsoft-money.gif">
+<meta property="og:updated_time" content="2020-04-04T15:49:14.886Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="把该死的「多页打印」PDF课件转为单页">
-<meta name="twitter:description" content="方案：将PDF输出为图片，把图片批量裁剪后合并为PDF 平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick">
+<meta name="twitter:title" content="Beancount 记账——起步">
+<meta name="twitter:description" content="第一次记账，那还是很久之前的事了。最开始是中学时候使用烂笔头记账，当然主要是生活开销啊，后来记着记着就记不动了；之后是大学突然心血来潮用Excel记账，然后就没有然后了…… 这次无限量续费的假期中，看着支付宝账单，我又动了记账的想法。这次不是膨胀，不是一时的心血来潮，而是有计划、有目的地训练自己的记账习惯和记账方式，最终确暂时确定了以Beancount为主的记账方式。 在记账之前，首先需要一个好的">
+<meta name="twitter:image" content="https://mchen.xyz/post/beancount/installation-win.png">
 
-<link rel="canonical" href="https://mchen.xyz/post/crop-lecture-pdf-into-slides.html">
+<link rel="canonical" href="https://mchen.xyz/post/beancount.html">
 
 
 <script id="page-configurations">
@@ -72,7 +75,7 @@
   };
 </script>
 
-  <title>把该死的「多页打印」PDF课件转为单页 | 南村杂货铺</title>
+  <title>Beancount 记账——起步 | 南村杂货铺</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159367609-2"></script>
     <script>
@@ -227,7 +230,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://mchen.xyz/post/crop-lecture-pdf-into-slides.html">
+    <link itemprop="mainEntityOfPage" href="https://mchen.xyz/post/beancount.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -240,7 +243,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          把该死的「多页打印」PDF课件转为单页
+          Beancount 记账——起步
         </h1>
 
         <div class="post-meta">
@@ -249,32 +252,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2019-11-04 21:25:20" itemprop="dateCreated datePublished" datetime="2019-11-04T21:25:20+08:00">2019-11-04</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-02-13 18:01:59" itemprop="dateModified" datetime="2020-02-13T18:01:59+08:00">2020-02-13</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/computer-skills/" itemprop="url" rel="index">
-                    <span itemprop="name">Computer Skills</span>
-                  </a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/computer-skills/文档处理/" itemprop="url" rel="index">
-                    <span itemprop="name">文档处理</span>
-                  </a>
-                </span>
+              <time title="创建时间：2020-04-04 16:46:58 / 修改时间：23:49:14" itemprop="dateCreated datePublished" datetime="2020-04-04T16:46:58+08:00">2020-04-04</time>
             </span>
 
           
@@ -293,8 +273,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/post/crop-lecture-pdf-into-slides.html#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/post/crop-lecture-pdf-into-slides.html" itemprop="commentCount"></span>
+    <a title="valine" href="/post/beancount.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/post/beancount.html" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -309,12 +289,36 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>方案：将PDF输出为图片，把图片批量裁剪后合并为PDF</p>
-<p>平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick</p>
- <a id="more"></a> 
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> /l %%x <span class="keyword">in</span> (<span class="number">1</span>, <span class="number">1</span>, <span class="number">106</span>) <span class="keyword">do</span> (</span><br><span class="line">   echo %%x</span><br><span class="line">   magick convert test_%%x.png -crop <span class="number">1495</span>x1120+<span class="number">492</span>+<span class="number">464</span> tmp/img%%x-<span class="number">1</span>.png</span><br><span class="line">   magick convert test_%%x.png -crop <span class="number">1495</span>x1120+<span class="number">492</span>+<span class="number">1924</span> tmp/img%%x-<span class="number">2</span>.png</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-<p><strong>细节待续</strong></p>
-
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>第一次记账，那还是很久之前的事了。最开始是中学时候使用烂笔头记账，当然主要是生活开销啊，后来记着记着就记不动了；之后是大学突然心血来潮用Excel记账，然后就没有然后了……</p>
+<p>这次无限量续费的假期中，看着支付宝账单，我又动了记账的想法。这次不是膨胀，不是一时的心血来潮，而是有计划、有目的地训练自己的记账习惯和记账方式，最终确暂时确定了以Beancount为主的记账方式。</p>
+<p>在记账之前，首先需要一个好的记账工具，在大致地了解一些常用的记账软件后，Beancount很好地抓住了处女座的痛点：</p>
+<ul>
+<li>免费，自定义程度高：好用的软件当然不便宜，比如财智8，看了看价格就不想继续了解了；</li>
+<li>纯文本记账：账单数据存储在本地，并且是可读的，所以不会存在软件停止开发了账单数据怎么处理的问题；</li>
+<li>自动化程度：Beancount可以导入账单，这才是可以坚持记下去的原因啊.</li>
+</ul>
+<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><p>在参考了一些文档<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount Users's Manual](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA)
+">[1]</span></a></sup><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount复式记账：接地气的Why and How](https://blog.zsxsoft.com/post/41) from [zsx's Blog](https://blog.zsxsoft.com/) 
+">[2]</span></a></sup><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount复式记账（一）：为什么](https://www.byvoid.com/zhs/blog/beancount-bookkeeping-1) from [BYVoid](https://www.byvoid.com/zhs/) 
+">[3]</span></a></sup><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount —— 命令行复式簿记](https://wzyboy.im/post/1063.html) from [wzyboy’s blog](https://wzyboy.im/) 
+">[4]</span></a></sup><sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount使用经验](http://lidongchao.com/2018/07/20/has_header_in_csv_Sniffer/) from [LeeDC Blog](http://lidongchao.com/) ">[5]</span></a></sup>后，我在 Windows 10 上尝试安装了 Beancount 软件，当然，没有安装成功——好像大佬们都是Linux用户，Windows上的安装官方也有给出指导：</p>
+<p><img src="./beancount/installation-win.png" alt="Windows Install"></p>
+<p>然而我的笔记本上装有WSL，所以就直接省事儿用WSL版的。（ps. LxRunOffline 是一个可以安装、管理WSL(Win­dows Sub­sys­tem for Linux)的软件）</p>
+<h1 id="我的工作流"><a href="#我的工作流" class="headerlink" title="我的工作流"></a>我的工作流</h1><p>良好的支付习惯可以为记账开一个好头，目前我的选择是：</p>
+<ul>
+<li>使用支付宝作为主要的支付手段，微信作为辅助（尽量少用）；</li>
+<li>各银行卡仅用作转账工具，消费不直接从银行卡扣款，因为支付宝的帐号信息更详尽一些；</li>
+<li>关闭花呗、余额宝、零钱通，简化账单；</li>
+<li>现金使用<strong>纯记账</strong><sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[纯记账](https://www.chunjizhang.com/) 
+">[6]</span></a></sup>管理，对账日统计到账本上.</li>
+</ul>
+<p>按照这样的习惯进行日常支付，每个月整理一次账单。在对账日从支付宝、微信和各银行网银下载账单后，参考前人的做法导入账单即可。</p>
+<p>除了一般的收支流水，Beancount也可以管理证券交易、做预算等等，Beancount也在不断成长中。对<a href="https://zhuanlan.zhihu.com/p/58264923" target="_blank" rel="noopener">这里</a><sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[ 用Python抓取天天基金网基金历史净值数据](https://zhuanlan.zhihu.com/p/58264923) ">[7]</span></a></sup>抓取基金净值的代码稍加修改，就可以把基金市价合并到账簿里了。 </p>
+<h1 id="Appendix-A-纯记账"><a href="#Appendix-A-纯记账" class="headerlink" title="Appendix A. 纯记账"></a>Appendix A. 纯记账</h1><p>纯记账这个软件也不错，是移动端我比较偏爱的，其可以搭配坚果云同步账单数据。但是在记录上对比纯文本记账略有不足，比如网购账单拆分、AA付款这种设计三个以上帐户的记录就显得捉襟见肘，目前我主要用它管理现金账单。</p>
+<p><img src="./beancount/six-accountbook.png" alt="纯记账"></p>
+<h1 id="Appendix-B-Microsoft-Excel-Money"><a href="#Appendix-B-Microsoft-Excel-Money" class="headerlink" title="Appendix B. Microsoft Excel - Money"></a>Appendix B. Microsoft Excel - Money</h1><p>本月下旬 Microsoft 正式将 Office 365 更名为Microsoft 365（见<a href="https://card.weibo.com/article/m/show/id/2309404488960649855279" target="_blank" rel="noopener">咨询</a>），折回倒是加量不加价，其中一个有意思的功能是 Excel Money，其支持与银行账户、信用卡信息关联，可以自动导入交易和账户余额等信息，然而中国区是否会有这个功能还不知道，等等看。</p>
+<p><img src="./beancount/microsoft-money.gif" alt="Microsoft Money"></p>
+<h1 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h1><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA" target="_blank" rel="noopener">Beancount Users’s Manual</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://blog.zsxsoft.com/post/41" target="_blank" rel="noopener">Beancount复式记账：接地气的Why and How</a> from <a href="https://blog.zsxsoft.com/" target="_blank" rel="noopener">zsx’s Blog</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.byvoid.com/zhs/blog/beancount-bookkeeping-1" target="_blank" rel="noopener">Beancount复式记账（一）：为什么</a> from <a href="https://www.byvoid.com/zhs/" target="_blank" rel="noopener">BYVoid</a><a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://wzyboy.im/post/1063.html" target="_blank" rel="noopener">Beancount —— 命令行复式簿记</a> from <a href="https://wzyboy.im/" target="_blank" rel="noopener">wzyboy’s blog</a><a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="http://lidongchao.com/2018/07/20/has_header_in_csv_Sniffer/" target="_blank" rel="noopener">Beancount使用经验</a> from <a href="http://lidongchao.com/" target="_blank" rel="noopener">LeeDC Blog</a><a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.chunjizhang.com/" target="_blank" rel="noopener">纯记账</a><a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://zhuanlan.zhihu.com/p/58264923" target="_blank" rel="noopener"> 用Python抓取天天基金网基金历史净值数据</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li></ol></div></div>
     </div>
 
     
@@ -349,7 +353,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://mchen.xyz/post/crop-lecture-pdf-into-slides.html" title="把该死的「多页打印」PDF课件转为单页">https://mchen.xyz/post/crop-lecture-pdf-into-slides.html</a>
+    <a href="https://mchen.xyz/post/beancount.html" title="Beancount 记账——起步">https://mchen.xyz/post/beancount.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -359,10 +363,6 @@
 
 
       <footer class="post-footer">
-          
-          <div class="post-tags">
-              <a href="/tags/PDF/" rel="tag"><i class="fa fa-tag"></i> PDF</a>
-          </div>
 
         
 
@@ -370,12 +370,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/post/windows-mklink-tutorial.html" rel="prev" title="mklink 命令的使用">
-      <i class="fa fa-chevron-left"></i> mklink 命令的使用
+    <a href="/post/organic-chemistry-websites.html" rel="prev" title="「考古存档」“你写论文时发现了哪些神网站？”之有机化学篇">
+      <i class="fa fa-chevron-left"></i> 「考古存档」“你写论文时发现了哪些神网站？”之有机化学篇
     </a></div>
       <div class="post-nav-item">
-    <a href="/post/summary-2019.html" rel="next" title="第一份年志">
-      第一份年志 <i class="fa fa-chevron-right"></i>
+    <a href="/post/chemtk.html" rel="next" title="'chemtk'">
+      'chemtk' <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -437,6 +437,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#起步"><span class="nav-number">1.</span> <span class="nav-text">起步</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#我的工作流"><span class="nav-number">2.</span> <span class="nav-text">我的工作流</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Appendix-A-纯记账"><span class="nav-number">3.</span> <span class="nav-text">Appendix A. 纯记账</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Appendix-B-Microsoft-Excel-Money"><span class="nav-number">4.</span> <span class="nav-text">Appendix B. Microsoft Excel - Money</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#References"><span class="nav-number">5.</span> <span class="nav-text">References:</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
