@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next7.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next7.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
-  <meta name="google-site-verification" content="Bpevi23UVo5QcLCjlxGm3YuaM7qH2k8DyHPCP7IbJIc">
+  <meta name="google-site-verification" content="gQO2ifBoiP2TfVMTv6WjkRjUOKl6XRaFmVyJABZTG1A">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -236,7 +236,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/post/chemtk.html" class="post-title-link" itemprop="url">'chemtk'</a>
+            <a href="/post/chemtk.html" class="post-title-link" itemprop="url">化学工具箱</a>
         </h1>
 
         <div class="post-meta">
@@ -245,10 +245,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-04-04 17:59:37 / 修改时间：22:10:14" itemprop="dateCreated datePublished" datetime="2020-04-04T17:59:37+08:00">2020-04-04</time>
+              <time title="创建时间：2020-04-04 17:59:37" itemprop="dateCreated datePublished" datetime="2020-04-04T17:59:37+08:00">2020-04-04</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-04-05 00:07:40" itemprop="dateModified" datetime="2020-04-05T00:07:40+08:00">2020-04-05</time>
+              </span>
 
           
   
@@ -320,10 +326,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-04-04 16:46:58 / 修改时间：23:49:14" itemprop="dateCreated datePublished" datetime="2020-04-04T16:46:58+08:00">2020-04-04</time>
+              <time title="创建时间：2020-04-04 16:46:58" itemprop="dateCreated datePublished" datetime="2020-04-04T16:46:58+08:00">2020-04-04</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-04-05 00:12:55" itemprop="dateModified" datetime="2020-04-05T00:12:55+08:00">2020-04-05</time>
+              </span>
 
           
   
@@ -350,36 +362,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>第一次记账，那还是很久之前的事了。最开始是中学时候使用烂笔头记账，当然主要是生活开销啊，后来记着记着就记不动了；之后是大学突然心血来潮用Excel记账，然后就没有然后了……</p>
-<p>这次无限量续费的假期中，看着支付宝账单，我又动了记账的想法。这次不是膨胀，不是一时的心血来潮，而是有计划、有目的地训练自己的记账习惯和记账方式，最终确暂时确定了以Beancount为主的记账方式。</p>
-<p>在记账之前，首先需要一个好的记账工具，在大致地了解一些常用的记账软件后，Beancount很好地抓住了处女座的痛点：</p>
-<ul>
-<li>免费，自定义程度高：好用的软件当然不便宜，比如财智8，看了看价格就不想继续了解了；</li>
-<li>纯文本记账：账单数据存储在本地，并且是可读的，所以不会存在软件停止开发了账单数据怎么处理的问题；</li>
-<li>自动化程度：Beancount可以导入账单，这才是可以坚持记下去的原因啊.</li>
-</ul>
-<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><p>在参考了一些文档<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount Users's Manual](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA)
-">[1]</span></a></sup><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount复式记账：接地气的Why and How](https://blog.zsxsoft.com/post/41) from [zsx's Blog](https://blog.zsxsoft.com/) 
-">[2]</span></a></sup><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount复式记账（一）：为什么](https://www.byvoid.com/zhs/blog/beancount-bookkeeping-1) from [BYVoid](https://www.byvoid.com/zhs/) 
-">[3]</span></a></sup><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount —— 命令行复式簿记](https://wzyboy.im/post/1063.html) from [wzyboy’s blog](https://wzyboy.im/) 
-">[4]</span></a></sup><sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount使用经验](http://lidongchao.com/2018/07/20/has_header_in_csv_Sniffer/) from [LeeDC Blog](http://lidongchao.com/) ">[5]</span></a></sup>后，我在 Windows 10 上尝试安装了 Beancount 软件，当然，没有安装成功——好像大佬们都是Linux用户，Windows上的安装官方也有给出指导：</p>
-<p><img src="./beancount/installation-win.png" alt="Windows Install"></p>
-<p>然而我的笔记本上装有WSL，所以就直接省事儿用WSL版的。（ps. LxRunOffline 是一个可以安装、管理WSL(Win­dows Sub­sys­tem for Linux)的软件）</p>
-<h1 id="我的工作流"><a href="#我的工作流" class="headerlink" title="我的工作流"></a>我的工作流</h1><p>良好的支付习惯可以为记账开一个好头，目前我的选择是：</p>
-<ul>
-<li>使用支付宝作为主要的支付手段，微信作为辅助（尽量少用）；</li>
-<li>各银行卡仅用作转账工具，消费不直接从银行卡扣款，因为支付宝的帐号信息更详尽一些；</li>
-<li>关闭花呗、余额宝、零钱通，简化账单；</li>
-<li>现金使用<strong>纯记账</strong><sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[纯记账](https://www.chunjizhang.com/) 
-">[6]</span></a></sup>管理，对账日统计到账本上.</li>
-</ul>
-<p>按照这样的习惯进行日常支付，每个月整理一次账单。在对账日从支付宝、微信和各银行网银下载账单后，参考前人的做法导入账单即可。</p>
-<p>除了一般的收支流水，Beancount也可以管理证券交易、做预算等等，Beancount也在不断成长中。对<a href="https://zhuanlan.zhihu.com/p/58264923" target="_blank" rel="noopener">这里</a><sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[ 用Python抓取天天基金网基金历史净值数据](https://zhuanlan.zhihu.com/p/58264923) ">[7]</span></a></sup>抓取基金净值的代码稍加修改，就可以把基金市价合并到账簿里了。 </p>
-<h1 id="Appendix-A-纯记账"><a href="#Appendix-A-纯记账" class="headerlink" title="Appendix A. 纯记账"></a>Appendix A. 纯记账</h1><p>纯记账这个软件也不错，是移动端我比较偏爱的，其可以搭配坚果云同步账单数据。但是在记录上对比纯文本记账略有不足，比如网购账单拆分、AA付款这种设计三个以上帐户的记录就显得捉襟见肘，目前我主要用它管理现金账单。</p>
-<p><img src="./beancount/six-accountbook.png" alt="纯记账"></p>
-<h1 id="Appendix-B-Microsoft-Excel-Money"><a href="#Appendix-B-Microsoft-Excel-Money" class="headerlink" title="Appendix B. Microsoft Excel - Money"></a>Appendix B. Microsoft Excel - Money</h1><p>本月下旬 Microsoft 正式将 Office 365 更名为Microsoft 365（见<a href="https://card.weibo.com/article/m/show/id/2309404488960649855279" target="_blank" rel="noopener">咨询</a>），折回倒是加量不加价，其中一个有意思的功能是 Excel Money，其支持与银行账户、信用卡信息关联，可以自动导入交易和账户余额等信息，然而中国区是否会有这个功能还不知道，等等看。</p>
-<p><img src="./beancount/microsoft-money.gif" alt="Microsoft Money"></p>
-<h1 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h1><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA" target="_blank" rel="noopener">Beancount Users’s Manual</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://blog.zsxsoft.com/post/41" target="_blank" rel="noopener">Beancount复式记账：接地气的Why and How</a> from <a href="https://blog.zsxsoft.com/" target="_blank" rel="noopener">zsx’s Blog</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.byvoid.com/zhs/blog/beancount-bookkeeping-1" target="_blank" rel="noopener">Beancount复式记账（一）：为什么</a> from <a href="https://www.byvoid.com/zhs/" target="_blank" rel="noopener">BYVoid</a><a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://wzyboy.im/post/1063.html" target="_blank" rel="noopener">Beancount —— 命令行复式簿记</a> from <a href="https://wzyboy.im/" target="_blank" rel="noopener">wzyboy’s blog</a><a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="http://lidongchao.com/2018/07/20/has_header_in_csv_Sniffer/" target="_blank" rel="noopener">Beancount使用经验</a> from <a href="http://lidongchao.com/" target="_blank" rel="noopener">LeeDC Blog</a><a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.chunjizhang.com/" target="_blank" rel="noopener">纯记账</a><a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://zhuanlan.zhihu.com/p/58264923" target="_blank" rel="noopener"> 用Python抓取天天基金网基金历史净值数据</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li></ol></div></div>
+          记账贵在坚持
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/beancount.html">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
