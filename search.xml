@@ -288,7 +288,8 @@
 <p>平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick</p>
  <a id="more"></a> 
 <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> /l %%x <span class="keyword">in</span> (<span class="number">1</span>, <span class="number">1</span>, <span class="number">106</span>) <span class="keyword">do</span> (</span><br><span class="line">   echo %%x</span><br><span class="line">   magick convert test_%%x.png -crop <span class="number">1495</span>x1120+<span class="number">492</span>+<span class="number">464</span> tmp/img%%x-<span class="number">1</span>.png</span><br><span class="line">   magick convert test_%%x.png -crop <span class="number">1495</span>x1120+<span class="number">492</span>+<span class="number">1924</span> tmp/img%%x-<span class="number">2</span>.png</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-<p><strong>细节待续</strong></p>
+<p>这种方法也可以用来从视频中存档课件，如果可以配合ABBYY或许会更好</p>
+<p>细节待续**</p>
 ]]></content>
       <categories>
         <category>Computer Skills</category>
@@ -331,7 +332,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -647,7 +648,7 @@ U2FsdGVkX1+cFl9SZygL+vg8xlBuRdz7T1eIjPCjHmKmsviUHt65Spxc+xmN3bZqQHvWIvuuuaK/X/Er
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-U2FsdGVkX19LgxG5Td7LylS8utHmBXXNn32Hf5c5285yKpaHZZOehDSvU5qPvpZGdXI1HGB2PB+Fnt+hgkOeaM5UpcJsgbchI9ZOlZcsevkvTol+ipqTK+qAb6YyjEby/PnKAqn/syRjCFHcNVL0/SLAjkWkUeD+6juF7EG1i+IR178wBCZ22k46CDodgkIB0rx4/TRnuRp6w4bye1hPRebNpnKfpez/L4Y+dqzHOVKhhEyquX2gflWRlOTzasmTpk8qIusQvjGAI9/Q8T5bqGYWxHVy4fZIHwZaOar1Q8c/vPV4yitrHWAXik8fjDUQtqKjroB3n2NVTGTpFD47k5ZAlLCSWWxcTaibk68MnifP9M+bp7Y9k3FK5gPFVxoc3s1emFMdd2Uz89AYM2I3YY56izYlxLxKb267NJ0R6TG8m3IguZcu+ui75SYNI0CJsfEMp3t5GFxMUbiuUTJYJo0g/+nIvwH/M3lQvF+JOD81I2zpNleF2e5EDfxv0d/hFTxH2ytCMCzdG+idc4faFLIJwYkL6cAwIGLwHgTojMLAxXePs5vOM0OfdfLkvLUhaGncfHlCB18lqw/WLnd1S10xEIbfBGh0kBWHCO9/0zzKWWcxBmo9JqD1E8au6v+bb3ym1XEAYPhOrC7N5UqtYWs+MsC3UOecX9BpEZPBlbdLrpM5dtS3W9g3fG3dsuplTdozNiCVa91LXQOd5N7v1HATJnmIj9o5h10j8ia624TBr1TuxvNtMx2GAH9exseeJlFDqTnxyrzKzIOdmIgAPIecfublPaMphKqgUTnlBdex/Xm+ZudPgnik47eikv4ZYnMGqisanWXZiuvVB1WfQzCefI+cOw2ZkqNdpxrqGWl4GIQtr9IeliqVrIzxY8pH4ecZe4Q0/X85fMG18+4JU5f1hS8YYWGUd3OZlCDa/0UhzWfDjhBd/Fp7vt3ApAMxPoV326Bz3oyUr5Ov08Hx+GPWkU3anF3cZdW46dipQUCJ8g7T45OUkjlIVldDC6DR2XMcvk8aX1bYKxXaUUQI3Ah83jP5SZI0OM/svGT9imgMkuOes3V05oviY6URb06N0N1OiJ7FlQhe3vWyFbyzqLR9I9ulzukxmx/1CTYmo3s=
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -1152,8 +1153,8 @@ U2FsdGVkX19LgxG5Td7LylS8utHmBXXNn32Hf5c5285yKpaHZZOehDSvU5qPvpZGdXI1HGB2PB+Fnt+h
         <category>考研</category>
       </categories>
       <tags>
-        <tag>考研</tag>
         <tag>化学</tag>
+        <tag>考研</tag>
       </tags>
   </entry>
   <entry>
