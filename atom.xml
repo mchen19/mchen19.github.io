@@ -115,16 +115,15 @@
   </entry>
   
   <entry>
-    <title>把该死的「多页打印」PDF课件转为单页</title>
+    <title>将「多页打印」的PDF文件转为单页文件</title>
     <link href="https://mchen.xyz/post/crop-lecture-pdf-into-slides.html"/>
     <id>https://mchen.xyz/post/crop-lecture-pdf-into-slides.html</id>
     <published>2019-11-04T13:25:20.000Z</published>
-    <updated>2020-04-15T15:09:40.328Z</updated>
+    <updated>2020-04-18T06:10:45.951Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;方案：将PDF输出为图片，把图片批量裁剪后合并为PDF&lt;/p&gt;
-&lt;p&gt;平台：Windows 10 1903 + Adobe Acrobat DC Pro + Imagemagick&lt;/p&gt;
+      通过批量剪切图片的方式把多页打印的文档转为适合屏读的单页文档。
     
     </summary>
     
