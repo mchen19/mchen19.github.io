@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>南村杂货铺</title>
   
-  <subtitle>Love life, love work, love ___.</subtitle>
+  <subtitle>Love life, love work,</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mchen.xyz/"/>
@@ -338,9 +338,9 @@
       <category term="考研" scheme="https://mchen.xyz/categories/kaoyan/"/>
     
     
-      <category term="考研" scheme="https://mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
-    
       <category term="化学" scheme="https://mchen.xyz/tags/%E5%8C%96%E5%AD%A6/"/>
+    
+      <category term="考研" scheme="https://mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
     
   </entry>
   
