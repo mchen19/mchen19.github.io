@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mchen.xyz/"/>
-  <updated>2020-04-04T16:07:40.567Z</updated>
+  <updated>2020-04-23T07:23:48.902Z</updated>
   <id>https://mchen.xyz/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「丐版」信息订阅</title>
+    <link href="https://mchen.xyz/post/information-tracking-workflow.html"/>
+    <id>https://mchen.xyz/post/information-tracking-workflow.html</id>
+    <published>2020-04-23T07:20:45.000Z</published>
+    <updated>2020-04-23T07:23:48.902Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>影视档案2020</title>
+    <link href="https://mchen.xyz/post/movies-2020.html"/>
+    <id>https://mchen.xyz/post/movies-2020.html</id>
+    <published>2020-04-23T06:28:06.000Z</published>
+    <updated>2020-04-23T07:31:32.790Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>化学工具箱</title>
@@ -43,7 +87,7 @@
     <link href="https://mchen.xyz/post/beancount.html"/>
     <id>https://mchen.xyz/post/beancount.html</id>
     <published>2020-04-04T08:46:58.000Z</published>
-    <updated>2020-04-04T16:12:55.927Z</updated>
+    <updated>2020-04-18T10:44:14.004Z</updated>
     
     <summary type="html">
     
@@ -59,7 +103,7 @@
     <link href="https://mchen.xyz/post/organic-chemistry-websites.html"/>
     <id>https://mchen.xyz/post/organic-chemistry-websites.html</id>
     <published>2020-02-13T09:38:51.000Z</published>
-    <updated>2020-03-16T10:35:19.923Z</updated>
+    <updated>2020-04-20T07:52:28.072Z</updated>
     
     <summary type="html">
     
@@ -265,7 +309,7 @@
     <link href="https://mchen.xyz/post/nku-chem-ky.html"/>
     <id>https://mchen.xyz/post/nku-chem-ky.html</id>
     <published>2019-01-07T14:59:22.000Z</published>
-    <updated>2020-03-25T16:23:07.318Z</updated>
+    <updated>2020-04-23T02:21:16.470Z</updated>
     
     <summary type="html">
     
