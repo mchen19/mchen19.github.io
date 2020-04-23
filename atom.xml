@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>南村杂货铺</title>
   
-  <subtitle>Love life, love work,</subtitle>
+  <subtitle>Love life, love work, love ___.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mchen.xyz/"/>
-  <updated>2020-04-23T07:23:48.902Z</updated>
+  <updated>2020-04-23T08:24:25.166Z</updated>
   <id>https://mchen.xyz/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://mchen.xyz/post/information-tracking-workflow.html"/>
     <id>https://mchen.xyz/post/information-tracking-workflow.html</id>
     <published>2020-04-23T07:20:45.000Z</published>
-    <updated>2020-04-23T07:23:48.902Z</updated>
+    <updated>2020-04-23T08:24:25.166Z</updated>
     
     <summary type="html">
     
@@ -43,7 +43,7 @@
     <link href="https://mchen.xyz/post/movies-2020.html"/>
     <id>https://mchen.xyz/post/movies-2020.html</id>
     <published>2020-04-23T06:28:06.000Z</published>
-    <updated>2020-04-23T07:31:32.790Z</updated>
+    <updated>2020-04-23T08:21:56.171Z</updated>
     
     <summary type="html">
     
@@ -51,7 +51,7 @@
       
         
         
-          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;a
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
         
       
     
@@ -338,9 +338,9 @@
       <category term="考研" scheme="https://mchen.xyz/categories/kaoyan/"/>
     
     
-      <category term="化学" scheme="https://mchen.xyz/tags/%E5%8C%96%E5%AD%A6/"/>
-    
       <category term="考研" scheme="https://mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="化学" scheme="https://mchen.xyz/tags/%E5%8C%96%E5%AD%A6/"/>
     
   </entry>
   

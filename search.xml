@@ -3,15 +3,32 @@
   <entry>
     <title>「丐版」信息订阅</title>
     <url>/post/information-tracking-workflow.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>RSS(Hub)</p>
-<p>变更提示(Android)</p>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
+<p>暂时主要是关键词，用于写作提示，尚未成文</p>
+</blockquote>
+<p>下面的workflow更主要是面向学生，更准确说是研究生群体。</p>
+<p>丐版，不要钱：</p>
+<ul>
+<li>RSS(Hub)，微博</li>
+<li>PubMed &gt; rss自定义文献追新</li>
+<li>变更提示(Android)（用于追踪通知类网站，或是价格）</li>
+<li>用于比价（by-product）</li>
+</ul>
+<p>付费服务，或者是需耗财耗力：</p>
+<ul>
+<li>openwebmonitor</li>
+<li>服务器端部署</li>
+</ul>
 ]]></content>
   </entry>
   <entry>
     <title>影视档案2020</title>
     <url>/post/movies-2020.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://www.douban.com/people/mchen19/" target="_blank" rel="noopener">豆瓣</a></p>
-<p>美丽人生 2020-01-15</p>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
+<p>暂时主要是关键词，用于写作提示，尚未成文</p>
+<p>持续更新中</p>
+</blockquote>
+<p>美丽人生 观影日期：2020-01-15</p>
 ]]></content>
   </entry>
   <entry>
@@ -360,7 +377,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -384,7 +401,7 @@ U2FsdGVkX1+kM91pXrVnM9F2LnsN5OvEN3/0F6PCg8Mz1xqysYNYaVqTwHd2unj/DVzD44NTrnXb9yZh
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -404,7 +421,7 @@ U2FsdGVkX1/SSaEcXFAOdWIYiVqOBJSRwmpt2BQltPTHf9CA555mXheAjtbgZTelz1skXf4hMuOB+044
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-U2FsdGVkX19mO7WcU+r01BY9aFZ2lUHxaGntikZOMlnnnZy0J5VuBujRqmdywPgRfouqi/5y3kblGFbh5PbF3TIXj3FruqjbdGNbVHTTXoVv9LSsYn7VHvR6RkgwcvVbKgFxktxanJ9siZK8FPb6Fe3IJJEAFsw6h9QUZ4fQyGKR8Kw7iyL6ca6w8zLQwrSifobXmQv3phcZbv4hJQ7HWGCrMK3sd6EFYPMH3yf+wT9wvOW4yX8aej0AqfG9sTyddo9GZbjbAqiLNc8FnQBBfb48a2+1YhlkuCKVrIF6h/ieFI3/RSdTAYu0Az70fv/4x8jyKUlwAm6+oBGk705fZtWGKlsjcQQ0bunHma/1CEn209F/FzE2g29a5yMJTGfCuAcH0IvAxOocEP6vBFpTYg==
+U2FsdGVkX19pbL6sMSn88YVFX/vsjDlZeYwJDS8hPuNRB++EN1plro6MLLq3O8US3DQXCDkHC97MJxVSfbmqu7W5g4/Y2ZxVoih8zluGiGBeW5CALAM4NmnqPekWAwUFP4iP299nr5CumC4g4Z3BCK0fWlgzMKkLvfvWyr7zM1jPPogPLRJl7J5tAcjh3rHWiUFVzqYYXxaXo3frPnhIqAIuhYVeYIxwTWJp6pkWm9geAwu5rZTv2bZkeSdxXh8pu3kn9mHsDBmMp81ySnDkYyxbTL8S+vyOEDGJ+YuCbhStERgbEcjlMUgPM/lQWvQfcHIs5VKBUM8KUtuZ6MmpfI/B7SmELvUCfF+1G/Ux/8qLIBRkRjixh5Vx5zJKrIDHsPdc4kXULwCmHI32ZcgsFg==
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -1202,8 +1219,8 @@ U2FsdGVkX19mO7WcU+r01BY9aFZ2lUHxaGntikZOMlnnnZy0J5VuBujRqmdywPgRfouqi/5y3kblGFbh
         <category>考研</category>
       </categories>
       <tags>
-        <tag>化学</tag>
         <tag>考研</tag>
+        <tag>化学</tag>
       </tags>
   </entry>
   <entry>
