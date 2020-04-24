@@ -14,38 +14,12 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
 
 <script id="hexo-configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    hostname: new URL('https://mchen.xyz').hostname,
-    root: '/',
-    scheme: 'Gemini',
-    version: '7.7.1',
-    exturl: false,
-    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
-    copycode: {"enable":false,"show_result":false,"style":null},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
-    bookmark: {"enable":false,"color":"#222","save":"auto"},
-    fancybox: false,
-    mediumzoom: false,
-    lazyload: false,
-    pangu: false,
-    comments: {"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},
-    algolia: {
-      appID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    },
-    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
-    path: 'search.xml',
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
-  };
-</script>
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"mchen.xyz","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
 
 <script data-ad-client="ca-pub-1570881965055535" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <meta name="description" content="正在测试，仅供交流">
@@ -68,8 +42,9 @@
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: false,
-    isPost: true
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
   };
 </script>
 
@@ -121,18 +96,6 @@
 
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
-  <div class="site-meta">
-
-    <div>
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">南村杂货铺</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-        <p class="site-subtitle">Love life, love work,</p>
-  </div>
-
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
@@ -140,11 +103,28 @@
       <span class="toggle-line toggle-line-last"></span>
     </div>
   </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">南村杂货铺</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Love life, love work,</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
 </div>
 
 
+
+
 <nav class="site-nav">
-  
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
@@ -181,29 +161,34 @@
         </a>
       </li>
   </ul>
-
 </nav>
-  <div class="site-search">
+
+
+
+  <div class="search-pop-overlay">
     <div class="popup search-popup">
-    <div class="search-header">
+        <div class="search-header">
   <span class="search-icon">
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+    <input autocomplete="off" autocapitalize="off"
            placeholder="搜索..." spellcheck="false"
-           type="text" id="search-input">
+           type="search" class="search-input">
   </div>
   <span class="popup-btn-close">
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div id="search-result"></div>
-
-</div>
-<div class="search-pop-overlay"></div>
-
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
   </div>
+</div>
+
+    </div>
+  </div>
+
 </div>
     </header>
 
@@ -220,14 +205,13 @@
         <div class="content-wrap">
           
 
-          <div class="content">
+          <div class="content post posts-expand">
             
 
-  <div class="posts-expand">
-      
+    
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://mchen.xyz/post/nankai-orgchem2016-answer-beta.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -266,9 +250,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/kaoyan/" itemprop="url" rel="index">
-                    <span itemprop="name">考研</span>
-                  </a>
+                  <a href="/categories/kaoyan/" itemprop="url" rel="index"><span itemprop="name">考研</span></a>
                 </span>
             </span>
 
@@ -314,7 +296,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
     </div>
@@ -354,7 +336,7 @@ U2FsdGVkX19jo6PWW5EqT9JAyIrA8cSHup6yxQOpORB6RDCkOxFqaGgnkk0KjH0iPSZzuh/UxeVwpgQH
     <a href="https://mchen.xyz/post/nankai-orgchem2016-answer-beta.html" title="南开大学2016年有机化学试题参考答案_beta">https://mchen.xyz/post/nankai-orgchem2016-answer-beta.html</a>
   </li>
   <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-cn" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
   </li>
 </ul>
 </div>
@@ -388,7 +370,6 @@ U2FsdGVkX19jo6PWW5EqT9JAyIrA8cSHup6yxQOpORB6RDCkOxFqaGgnkk0KjH0iPSZzuh/UxeVwpgQH
   
   
 
-  </div>
 
 
           </div>
@@ -397,7 +378,7 @@ U2FsdGVkX19jo6PWW5EqT9JAyIrA8cSHup6yxQOpORB6RDCkOxFqaGgnkk0KjH0iPSZzuh/UxeVwpgQH
 
 <script>
   window.addEventListener('tabs:register', () => {
-    let activeClass = CONFIG.comments.activeClass;
+    let { activeClass } = CONFIG.comments;
     if (CONFIG.comments.storage) {
       activeClass = localStorage.getItem('comments_active') || activeClass;
     }
@@ -515,6 +496,8 @@ U2FsdGVkX19jo6PWW5EqT9JAyIrA8cSHup6yxQOpORB6RDCkOxFqaGgnkk0KjH0iPSZzuh/UxeVwpgQH
       <div class="footer-inner">
         
 
+        
+
 <div class="copyright">
   
   &copy; 2019 – 
@@ -524,10 +507,7 @@ U2FsdGVkX19jo6PWW5EqT9JAyIrA8cSHup6yxQOpORB6RDCkOxFqaGgnkk0KjH0iPSZzuh/UxeVwpgQH
   </span>
   <span class="author" itemprop="copyrightHolder">M Chen</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0
-  </div>
-  <span class="post-meta-divider">|</span>
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.1
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
         
@@ -600,27 +580,27 @@ U2FsdGVkX19jo6PWW5EqT9JAyIrA8cSHup6yxQOpORB6RDCkOxFqaGgnkk0KjH0iPSZzuh/UxeVwpgQH
 
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
-  NexT.utils.getScript('//cdnjs.cloudflare.com/ajax/libs/valine/1.3.10/Valine.min.js', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js', () => {
     var GUEST = ['nick', 'mail', 'link'];
     var guest = 'nick,mail,link';
     guest = guest.split(',').filter(item => {
       return GUEST.includes(item);
     });
     new Valine({
-      el: '#valine-comments',
-      verify: true,
-      notify: true,
-      appId: 'TYRrTydhG7uEXzs28AbF70u7-gzGzoHsz',
-      appKey: '2lvpikWdH33GSPTF4bczQLxp',
+      el         : '#valine-comments',
+      verify     : true,
+      notify     : true,
+      appId      : 'TYRrTydhG7uEXzs28AbF70u7-gzGzoHsz',
+      appKey     : '2lvpikWdH33GSPTF4bczQLxp',
       placeholder: "Just go go",
-      avatar: 'retro',
-      meta: guest,
-      pageSize: '10' || 10,
-      visitor: false,
-      lang: '' || 'zh-cn',
-      path: location.pathname,
-      recordIP: true,
-      serverURLs: ''
+      avatar     : 'retro',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : true,
+      serverURLs : ''
     });
   }, window.Valine);
 });
