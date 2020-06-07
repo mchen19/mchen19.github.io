@@ -43,7 +43,7 @@
     <link href="https://mchen.xyz/post/movies-2020.html"/>
     <id>https://mchen.xyz/post/movies-2020.html</id>
     <published>2020-04-23T06:28:06.000Z</published>
-    <updated>2020-04-25T15:00:57.935Z</updated>
+    <updated>2020-04-27T09:38:46.766Z</updated>
     
     <summary type="html">
     
@@ -84,10 +84,10 @@
   
   <entry>
     <title>Beancount 记账——起步</title>
-    <link href="https://mchen.xyz/post/beancount.html"/>
-    <id>https://mchen.xyz/post/beancount.html</id>
+    <link href="https://mchen.xyz/post/beancount-getting-started.html"/>
+    <id>https://mchen.xyz/post/beancount-getting-started.html</id>
     <published>2020-04-04T08:46:58.000Z</published>
-    <updated>2020-04-18T10:44:14.004Z</updated>
+    <updated>2020-04-27T10:05:52.240Z</updated>
     
     <summary type="html">
     
@@ -133,28 +133,6 @@
       <category term="Office" scheme="https://mchen.xyz/tags/Office/"/>
     
       <category term="Windows" scheme="https://mchen.xyz/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一份年志</title>
-    <link href="https://mchen.xyz/post/summary-2019.html"/>
-    <id>https://mchen.xyz/post/summary-2019.html</id>
-    <published>2019-12-31T15:46:02.000Z</published>
-    <updated>2019-12-31T18:04:12.049Z</updated>
-    
-    <summary type="html">
-    
-      第一份年志，献给过去的「我」。
-    
-    </summary>
-    
-      <category term="年志" scheme="https://mchen.xyz/categories/%E5%B9%B4%E5%BF%97/"/>
-    
-    
-      <category term="年志" scheme="https://mchen.xyz/tags/%E5%B9%B4%E5%BF%97/"/>
-    
-      <category term="回忆" scheme="https://mchen.xyz/tags/%E5%9B%9E%E5%BF%86/"/>
     
   </entry>
   
@@ -327,7 +305,7 @@
     <link href="https://mchen.xyz/post/nku-chem-ky.html"/>
     <id>https://mchen.xyz/post/nku-chem-ky.html</id>
     <published>2019-01-07T14:59:22.000Z</published>
-    <updated>2020-04-23T02:21:16.470Z</updated>
+    <updated>2020-04-26T10:09:58.971Z</updated>
     
     <summary type="html">
     

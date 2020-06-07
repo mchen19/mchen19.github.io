@@ -31,6 +31,7 @@
 <p><a href="https://movie.douban.com/subject/1292063/" target="_blank" rel="noopener">美丽人生</a> 观影日期：2020-01-15</p>
 <p><img src="movies-2020/p2579158293.jpg" alt="p2579158293"></p>
 <p>进不去电影院的人生真的谈不上美丽。—— <a href="https://www.douban.com/people/140600744/status/2930388609/" target="_blank" rel="noopener">豆瓣 SebMia</a> </p>
+<p><a href="https://movie.douban.com/subject/26461145/" target="_blank" rel="noopener">一把青 (2015)</a><br>小墨婷的签名<br>大墨婷</p>
 ]]></content>
   </entry>
   <entry>
@@ -43,7 +44,7 @@
   </entry>
   <entry>
     <title>Beancount 记账——起步</title>
-    <url>/post/beancount.html</url>
+    <url>/post/beancount-getting-started.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>第一次记账，那还是很久之前的事了。最开始是中学时候使用烂笔头记账，当然主要是生活开销啊，后来记着记着就记不动了；之后是大学突然心血来潮用Excel记账，然后就没有然后了……</p>
 <p>这次无限量续费的假期中，看着支付宝账单，我又动了记账的想法。这次不是膨胀，不是一时的心血来潮，而是有计划、有目的地训练自己的记账习惯和记账方式，最终确暂时确定了以Beancount为主的记账方式。</p>
 <p>在记账之前，首先需要一个好的记账工具，在大致地了解一些常用的记账软件后，Beancount很好地抓住了处女座的痛点：</p>
@@ -57,7 +58,7 @@
 ">[2]</span></a></sup><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount复式记账（一）：为什么](https://www.byvoid.com/zhs/blog/beancount-bookkeeping-1) from [BYVoid](https://www.byvoid.com/zhs/) 
 ">[3]</span></a></sup><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount —— 命令行复式簿记](https://wzyboy.im/post/1063.html) from [wzyboy’s blog](https://wzyboy.im/) 
 ">[4]</span></a></sup><sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Beancount使用经验](http://lidongchao.com/2018/07/20/has_header_in_csv_Sniffer/) from [LeeDC Blog](http://lidongchao.com/) ">[5]</span></a></sup>后，我在 Windows 10 上尝试安装了 Beancount 软件，当然，没有安装成功——好像大佬们都是Linux用户，Windows上的安装官方也有给出指导：</p>
-<p><img src="./beancount/installation-win.png" alt="Windows Install"></p>
+<p><img src="beancount-getting-started/installation-win.png" alt="Windows Install"></p>
 <p>然而我的笔记本上装有WSL，所以就直接省事儿用WSL版的。（ps. LxRunOffline 是一个可以安装、管理WSL(Win­dows Sub­sys­tem for Linux)的软件）</p>
 <h1 id="我的工作流"><a href="#我的工作流" class="headerlink" title="我的工作流"></a>我的工作流</h1><p>良好的支付习惯可以为记账开一个好头，目前我的选择是：</p>
 <ul>
@@ -70,10 +71,16 @@
 <p>按照这样的习惯进行日常支付，每个月整理一次账单。在对账日从支付宝、微信和各银行网银下载账单后，参考前人的做法导入账单即可。</p>
 <p>除了一般的收支流水，Beancount也可以管理证券交易、做预算等等，Beancount也在不断成长中。对<a href="https://zhuanlan.zhihu.com/p/58264923" target="_blank" rel="noopener">这里</a><sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[ 用Python抓取天天基金网基金历史净值数据](https://zhuanlan.zhihu.com/p/58264923) ">[7]</span></a></sup>抓取基金净值的代码稍加修改，就可以把基金市价合并到账簿里了。 </p>
 <h1 id="Appendix-A-纯记账"><a href="#Appendix-A-纯记账" class="headerlink" title="Appendix A. 纯记账"></a>Appendix A. 纯记账</h1><p>纯记账这个软件也不错，是移动端我比较偏爱的，其可以搭配坚果云同步账单数据。但是在记录上对比纯文本记账略有不足，比如网购账单拆分、AA付款这种设计三个以上帐户的记录就显得捉襟见肘，目前我主要用它管理现金账单。</p>
-<p><img src="./beancount/six-accountbook.png" alt="纯记账"></p>
-<h1 id="Appendix-B-Microsoft-Excel-Money"><a href="#Appendix-B-Microsoft-Excel-Money" class="headerlink" title="Appendix B. Microsoft Excel - Money"></a>Appendix B. Microsoft Excel - Money</h1><p>本月下旬 Microsoft 正式将 Office 365 更名为Microsoft 365（见<a href="https://card.weibo.com/article/m/show/id/2309404488960649855279" target="_blank" rel="noopener">资讯</a>），折回倒是加量不加价，其中一个有意思的功能是 Excel Money，其支持与银行账户、信用卡信息关联，可以自动导入交易和账户余额等信息，然而中国区是否会有这个功能还不知道，等等看。</p>
-<p><img src="./beancount/microsoft-money.gif" alt="Microsoft Money"></p>
-<h1 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h1><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA" target="_blank" rel="noopener">Beancount Users’s Manual</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://blog.zsxsoft.com/post/41" target="_blank" rel="noopener">Beancount复式记账：接地气的Why and How</a> from <a href="https://blog.zsxsoft.com/" target="_blank" rel="noopener">zsx’s Blog</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.byvoid.com/zhs/blog/beancount-bookkeeping-1" target="_blank" rel="noopener">Beancount复式记账（一）：为什么</a> from <a href="https://www.byvoid.com/zhs/" target="_blank" rel="noopener">BYVoid</a><a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://wzyboy.im/post/1063.html" target="_blank" rel="noopener">Beancount —— 命令行复式簿记</a> from <a href="https://wzyboy.im/" target="_blank" rel="noopener">wzyboy’s blog</a><a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="http://lidongchao.com/2018/07/20/has_header_in_csv_Sniffer/" target="_blank" rel="noopener">Beancount使用经验</a> from <a href="http://lidongchao.com/" target="_blank" rel="noopener">LeeDC Blog</a><a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.chunjizhang.com/" target="_blank" rel="noopener">纯记账</a><a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://zhuanlan.zhihu.com/p/58264923" target="_blank" rel="noopener"> 用Python抓取天天基金网基金历史净值数据</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+<p><img src="beancount-getting-started/six-accountbook.png" alt="纯记账"></p>
+<h1 id="Appendix-B-Microsoft-Excel-Money"><a href="#Appendix-B-Microsoft-Excel-Money" class="headerlink" title="Appendix B. Microsoft Excel - Money"></a>Appendix B. Microsoft Excel - Money</h1><p>本月下旬 Microsoft 正式将 Office 365 更名为Microsoft 365（见<a href="https://card.weibo.com/article/m/show/id/2309404488960649855279" target="_blank" rel="noopener">资讯</a>），折回倒是加量不加价，其中一个有意思的功能是 Excel Money，其支持与银行账户、信用卡信息关联，可以自动导入交易和账户余额等信息，然而中国区<del>是否会有这个功能还不知道，等等看</del>暂不支持该功能（其实更新的Microsoft 365在国区几乎没啥更新功能），可能是由于金融帐户的问题吧，就像网易的记账也不支持绑定支付宝同步了。</p>
+<p><img src="beancount-getting-started/microsoft-money.gif" alt="Microsoft Money"></p>
+<h1 id="Appendix-C-GnuCash"><a href="#Appendix-C-GnuCash" class="headerlink" title="Appendix C. GnuCash"></a>Appendix C. GnuCash</h1><p>与GnuCash比较起来：</p>
+<ul>
+<li>纯文本，可读性更好，但是当遇到不可抗力查账时，这也是个弱点；可以使用git进行版本控制，当然GnuCash也会有log，具体作用尚未了解；</li>
+<li>账单导入，GnuCash可以导入<code>.csv</code>文件，怎么用还没看；</li>
+<li>多帐户记账这一点GnuCash也能很好的完成，下拉列表选择帐户似乎比beancount操作更为简便<h1 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h1></li>
+</ul>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA" target="_blank" rel="noopener">Beancount Users’s Manual</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://blog.zsxsoft.com/post/41" target="_blank" rel="noopener">Beancount复式记账：接地气的Why and How</a> from <a href="https://blog.zsxsoft.com/" target="_blank" rel="noopener">zsx’s Blog</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.byvoid.com/zhs/blog/beancount-bookkeeping-1" target="_blank" rel="noopener">Beancount复式记账（一）：为什么</a> from <a href="https://www.byvoid.com/zhs/" target="_blank" rel="noopener">BYVoid</a><a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://wzyboy.im/post/1063.html" target="_blank" rel="noopener">Beancount —— 命令行复式簿记</a> from <a href="https://wzyboy.im/" target="_blank" rel="noopener">wzyboy’s blog</a><a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="http://lidongchao.com/2018/07/20/has_header_in_csv_Sniffer/" target="_blank" rel="noopener">Beancount使用经验</a> from <a href="http://lidongchao.com/" target="_blank" rel="noopener">LeeDC Blog</a><a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.chunjizhang.com/" target="_blank" rel="noopener">纯记账</a><a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://zhuanlan.zhihu.com/p/58264923" target="_blank" rel="noopener"> 用Python抓取天天基金网基金历史净值数据</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
   </entry>
   <entry>
     <title>「考古存档」“你写论文时发现了哪些神网站？”之有机化学篇</title>
@@ -274,46 +281,6 @@
       </tags>
   </entry>
   <entry>
-    <title>第一份年志</title>
-    <url>/post/summary-2019.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center"><br>    有些事，它不写下来，就记不住了。<br></blockquote>
-
-<h1 id="2019关键词"><a href="#2019关键词" class="headerlink" title="2019关键词"></a>2019关键词</h1><p>结束与开始、迷惘而不慌张、无力感…</p>
-<h1 id="「杂念」"><a href="#「杂念」" class="headerlink" title="「杂念」"></a>「杂念」</h1><p>2019，亥年新岁，吾父48岁之本命年<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label=" 年龄 = 现今年份 - 出生年份.">[1]</span></a></sup>。</p>
-<p>2020，吾母48岁亦即吾24岁之本命年。</p>
-<p>然而总有一种感觉，感觉自己被困在十九岁好多年，一直没有走出来。二十岁时是，二十二岁时也是，对数字毫无敏感，唯独二十四岁当头棒喝，猛然发现已然五年去了，也开始一次又一次地审视自己，审视来路问前途。</p>
-<p>2019年元旦，闲着，不想做实验，也不想看书，在宿舍混吃等死吧。开始搭建这个博客，于今恰好一周年，成此文，杂记这动荡的一年，或者套用一句，这「兵荒马乱」的一年，以告慰这空白的二十四载。</p>
-<h1 id="「毕业」"><a href="#「毕业」" class="headerlink" title="「毕业」"></a>「毕业」</h1><p>寒假宅家，继续混吃等死。</p>
-<p>研考成绩出来的那一刻，平复一下心情，就能一眼望到六月了。复试，毕业设计，都大致地按照预判一步一步往下走，从入局到出局，像程式一样流转，最终被签发一张毕业证书宣告一枚本科生生产完毕。这一切都恍如自己置身事外一般，像是冷眼观世界，有那么点平淡无味，又深感似乎真有所谓的命运，本来的焦虑突然发现都是徒劳的，或许以无力之心按照自己最舒服的方向走就好了（但那不是颓废吗？）。</p>
-<p>四年很长，毕业很慢，什么都没来及留下，直到离开时坐在校园小公交后排回望这座校园时，总发现少了点什么，发现我似乎是一个没有记忆的人。直到校门口，才给我的江大留下了一张照片。</p>
-<p>figure 1. 再见了，江大！</p>
-<p><img src="summary-2019/Jiangnan.jpg" alt="再见了，江大！"></p>
-<p>而对于八里台，只有一句话，「此南辕北辙之举，是对是错已不重要，且待明年见分晓」。</p>
-<h1 id="「下半年」"><a href="#「下半年」" class="headerlink" title="「下半年」"></a>「下半年」</h1><p>本科，恣意生长；研究僧，沉淀——或者是经历一轮又一轮的膨胀与收缩，这一直是我的信条。</p>
-<p>然而我发现我还是太年轻了。「Two yang, too simple, sometimes naive.」这大半年下来，举笔无事可言，忙忙碌碌，庸庸无为，空而不实，未竟一事。[此处省略两百字明天写]</p>
-<h1 id="「大数据」"><a href="#「大数据」" class="headerlink" title="「大数据」"></a>「大数据」</h1><h2 id="观影"><a href="#观影" class="headerlink" title="观影"></a>观影</h2><p>figure 2. 我們與惡的距離(The World Between Us)</p>
-<p><img src="summary-2019/The_World_Between_Us.jpg" alt="我們與惡的距離(The World Between Us)"></p>
-<p>观影也包含在这里吧，音乐也放在这里吧</p>
-<h2 id="手机里的回忆"><a href="#手机里的回忆" class="headerlink" title="手机里的回忆"></a>手机里的回忆</h2><p>华为运动健康的年报还没出来，先放在这里以后再补上吧。（华为啥时候才能让导出数据……）</p>
-<p>先记下几个有意思的数据：</p>
-<p>全年最大步数：34,904步，2019年4月5日，清明，与K三人成行（不好意思，另一位兄弟我忘了你叫啥，来日有缘再会），无锡太湖鼋头渚；</p>
-<p>九月以来，最长睡眠10小时42分（2020继续加油！），最短睡眠4小时7分，日均夜间睡眠7小时8分。最长最短睡眠因为同一件事——蓟县某荒山徒步，当天困得要死，回来累得够呛——但是柿子是真便宜，让我见识了广大研究僧们的强大购买力。</p>
-<h1 id="关于未来"><a href="#关于未来" class="headerlink" title="关于未来"></a>关于未来</h1><p>私以为让年少之人谈未来是件残酷的事情。</p>
-<p>[有空再续。。。]</p>
-<blockquote>
-<p>语文水平自中学毕业以来直线下滑，人文素养、审美无限趋零，文字、语言表达能力 = 0，凑活看吧，明年再见。</p>
-<p><strong>心中万言语，落笔不足千</strong>，以后我应该出门带个小本本，明年再见。。。</p>
-</blockquote>
- <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">年龄 = 现今年份 - 出生年份.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>年志</category>
-      </categories>
-      <tags>
-        <tag>年志</tag>
-        <tag>回忆</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>将「多页打印」的PDF文件转为单页文件</title>
     <url>/post/crop-lecture-pdf-into-slides.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
@@ -379,7 +346,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-U2FsdGVkX1+Zmg01rVJhk4FPJTt5vR8ynlABGhbDDb79ys81rV2AbIrTXH3gbfXca68OUG5vBA6VDhI/kdJOzDY6aHN323JN/l6OdTj5n+fkxS89KAq4aG/qBIYI2e7X6bjZ44oZL3l1L25S6O/odM+L7xhZ5zUI8Q2An9RpXf1OK2crKIE4c6Ok18JczCEzpd0fR/+Tt/Nr8jqO6gXQx36jIlHQTYxensJscWfnXZzvnNhp020a9Gpt8a1OJiJAHl8c3+qfJJc94HJSMOvb5/552lq2xGketw0awp0QkY/eskBCSyXo+OxMYcKM3bXtsrsEFfklZLtU1eFja2jAIHW3DLtQTuHGuPZvQqe3EUB30yaZ+o7L8uA9D+QBJ+218bA46ZEDjLJZeBjniYgPA24c9PX4ctQsNUmoOSNGCvOBnUxvHboyBmkzIc8yV86dNRwwrYO6NaoLXnAtUuQ6rtHB9ybX1VGIRhUDY1iHrFa7nCwrk5g5x+SSa7HZohxe82MeOcUB/3aoOoB3qrP09LV3E8WQn5DVoEKGFWN3ZM2chMCwugDYbMDv1bCFOC9O3uMN84EIJMwe/uespvItKTUw2VWSt5Hkmz58rZ+mV3P3DIWfVVXs9u0ojKgfwEqUT4SFwhdwmrfnd32J8lbHsJSzkfuk3qFwn/RucT873uCkZ4TPBfhoIikuHA0EbRgQgpHJlPBDGihm5nWoB44KNuo4GEanUA1/8aNp02g5E+QFX/tBbQ5gl8kln7bUaGhU9KJ2MXnR1VTnsTIUfCxSKJU9o8pjr7IXITqD/61fGRThvXXaYNEUQwSZliiDccXvzNMCGVzcQNGcA3peI1VSMAuarCjf6CKXkdKTVmKa4Gc3hqOKpGsPc2rH4b2QrzlbocsvU0q4Ga2KQw6H5YRqpkIqlUmmwjJKZQ3WvWBnQu91jFzGPKxXdrdni8R2gthh1nZoDAsDO79qhvHt0VMbHdFTYenqc/9iAQMZksEM/m0Is8qg8TjOiNBZwV+ksky6UwrTRLn9MbZFpBCdrkbgTIlJIjPRY+z7gPP9xb6lHAcBr4MdNuSrrgaP1gVJ/1loVMrPTysV9YO3OLYazS/UAxy19amwOHd01XafduYkgcA=
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -403,7 +370,7 @@ U2FsdGVkX1+Zmg01rVJhk4FPJTt5vR8ynlABGhbDDb79ys81rV2AbIrTXH3gbfXca68OUG5vBA6VDhI/
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -423,7 +390,7 @@ U2FsdGVkX19AMBKgoTCRUrbhoTipoHbd6xZ8W58gmmpN1mTbHaXAZcDjsNxGanEjev9a6nEyWPAfAfnr
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-U2FsdGVkX1+kcwJyRkgSLJF1j1e/mDVh34INCNBZ4Cl3d5mEn7oENOku9tUe2gRuK9AVEO0wEGXF4lI+ZbGquZEyLR70/pCQ67eliHDtJUUU4yWpdbx/GEKJAuv5NKCv1rGnPMK16ST1rm48RcTLfv93rTSzbYhJQZOkDrF88gQyjp+4IfFbekSMPjMPrNjUL+GIErhWwu6CE/Ez77KPrpYwGS4FrzgAfi9RkFMPK5E8/qQidslyQXBhPZWywU4i+u/+ZTBxILwni+jeSRTLnSIE6kWD6aLfjB67hjUMreQhu2M9XYW51nHHI2FHRKKl9YJoBe6K47S3m+fvCYzul1bLHVL18aXJdW5gNuFbqmU16y9aND9ezTSyHyh3VmeyX11XkbflbKqJ2oXcZ/cHfg==
+U2FsdGVkX1/KdM/Lsr7pDD7L5SZptKxZKrAtltAk/JffIJ7TuruMdnQR+nxFrOuSM9HyaQM7GBYoW65jSUmDA6MZZ8F14n0q4DZGoUYM+xO2RR5ssIhDrbRqbpDmhN/R//wpcZXzqYaXrloG9xLe2gyxroEJ/9mnkSi7oDB6XvjaujtjdNisyKreunELAQqEIw+r866tH03h8Abt2jBir0eoqfDWwHVTpFe56v5UP7Karx54vsUu+8dTPEZ0XTMYEuaE8ejUshZ9BIShqL80ZNk42FZ8YZV1NtV/1JJkHFMlJ6DpxJpoxsf77Cf2qGWjc1zBco2TKG33QAqwSrcg/utLerFskZ1SoO+sdqLCRUu7fFXbWq9jqd9ZBcqvtlPzJnGegMkGBTeMSIbuOYfHAQ==
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>

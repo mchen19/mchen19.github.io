@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://mchen.xyz/post/beancount-getting-started.html</loc>
+    <lastmod>2020-04-27</lastmod>
+  </url>  <url>
     <loc>https://mchen.xyz/post/movies-2020.html</loc>
-    <lastmod>2020-04-25</lastmod>
+    <lastmod>2020-04-27</lastmod>
+  </url>  <url>
+    <loc>https://mchen.xyz/post/nku-chem-ky.html</loc>
+    <lastmod>2020-04-26</lastmod>
   </url>  <url>
     <loc>https://mchen.xyz/post/crop-lecture-pdf-into-slides.html</loc>
     <lastmod>2020-04-25</lastmod>
@@ -16,14 +22,8 @@
     <loc>https://mchen.xyz/post/nankai-orgchem2016-answer-beta.html</loc>
     <lastmod>2020-04-23</lastmod>
   </url>  <url>
-    <loc>https://mchen.xyz/post/nku-chem-ky.html</loc>
-    <lastmod>2020-04-23</lastmod>
-  </url>  <url>
     <loc>https://mchen.xyz/post/organic-chemistry-websites.html</loc>
     <lastmod>2020-04-20</lastmod>
-  </url>  <url>
-    <loc>https://mchen.xyz/post/beancount.html</loc>
-    <lastmod>2020-04-18</lastmod>
   </url>  <url>
     <loc>https://mchen.xyz/post/chemtk.html</loc>
     <lastmod>2020-04-04</lastmod>
@@ -42,9 +42,6 @@
   </url>  <url>
     <loc>https://mchen.xyz/post/nankai-orgchem2014-answer-beta.html</loc>
     <lastmod>2020-02-07</lastmod>
-  </url>  <url>
-    <loc>https://mchen.xyz/post/summary-2019.html</loc>
-    <lastmod>2019-12-31</lastmod>
   </url>  <url>
     <loc>https://mchen.xyz/post/hexo-blog-setup.html</loc>
     <lastmod>2019-02-10</lastmod>

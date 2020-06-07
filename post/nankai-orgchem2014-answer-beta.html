@@ -18,7 +18,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"mchen.xyz","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"mchen.xyz","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
 
@@ -192,10 +192,6 @@
     </header>
 
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
   <div class="reading-progress-bar"></div>
 
 
@@ -295,7 +291,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-U2FsdGVkX19AMBKgoTCRUrbhoTipoHbd6xZ8W58gmmpN1mTbHaXAZcDjsNxGanEjev9a6nEyWPAfAfnrOtWQvMjRDPjiiyO0l4x6i9nxmIMVA+F4FIfSPwFrQ7fl0wtI+5xwNpKLNYjM0lIJTZOp4ngUI/0Cu38ruXLdf2fZ3JOMItWcWmol4ydDB+6pDKsv+TCfgqYGob4l6XIHJ1OKoHwfUYTsNzQiMRNE0E4PiILz+6aXQ8uQERqxHq0Ytwm+1MfpzwPvA8a2IUno+9KHM5JX2jcvE7u3K694Z7sgf0U7brAuxJMS/qSEfb9+l0KtKPDzQA6OLoIJJl4K2hpQG6PAGt9eot9Wi3PpSKgdOkZBpDJbz9+SBvouPLuiTIMddmI2iyf4bKQtiNAryiLuzUUqyJUIESdZN2PG/cO5fYEsd49KTta2A9hqMBPUawEJq+DGRahHBVb9af7W7hpM/8IRf9T74+cv9z6UcnGrtZpuKeQH0OWyno69/n59jZOeMNxZR0p+48Dp0Ob1ZBWDXzRIiAuSlopFeX06Vj6+rWP1q797r6YZvwOrWAv+nl5C2BHxb7L2BY7f3h8SonWn1pZPJT+YnIH4O5fEiwkig3W46sJ3hjugs4r6Lg/l5B6f8Ec2pxjWLFnx6XUyiIKOUVLODu/xhPVdwPj9PEgFaB1gGVe+eX8Jn26/OBHmYqt1kTqm8Q/vYhwIGlRX5mOCSoYK1ymRdkzDGzwFuHpAfhdSon73Uef7sp9ReKCdb0A2whZwU/fixNPeRKPwZxgW0RCD/FBzV6Lnb5aQ2Vx2MeOSSGkVkB6LcJFHBOOXWdNiTx+8m6GY8VBhy0cygZYR4P+bXaa/vNsSca1Ih4Vx5HbCWU0AChY00GsE0ResouX8g3pufCCZD95BZ9p4kfN2NXHm5zq7O2ppSkB4AUbQO//wpCjTemDEr7sT2Mc42HD/ymdp/z654woZA8QBZxBGXRCZOapbKc7fGo0Tqreedhw/mevjAoTZdI/iV9rYNQ/3B48x2j4JywTV80AG9lvL1A==
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
     </div>
@@ -430,20 +426,20 @@ U2FsdGVkX19AMBKgoTCRUrbhoTipoHbd6xZ8W58gmmpN1mTbHaXAZcDjsNxGanEjev9a6nEyWPAfAfnr
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -474,6 +470,10 @@ U2FsdGVkX19AMBKgoTCRUrbhoTipoHbd6xZ8W58gmmpN1mTbHaXAZcDjsNxGanEjev9a6nEyWPAfAfnr
   </div>
 
       </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
 
     </div>
   </aside>
