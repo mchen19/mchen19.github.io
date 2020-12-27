@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mchen.xyz/post/summary-2020.html</loc>
-    <lastmod>2020-12-25</lastmod>
+    <loc>https://mchen.xyz/post/spin-center-shfit-intro.html</loc>
+    <lastmod>2020-12-27</lastmod>
+  </url>  <url>
+    <loc>https://mchen.xyz/post/chemtk.html</loc>
+    <lastmod>2020-12-27</lastmod>
+  </url>  <url>
+    <loc>https://mchen.xyz/post/movies-2020.html</loc>
+    <lastmod>2020-12-27</lastmod>
   </url>  <url>
     <loc>https://mchen.xyz/post/molecular-docking-with-autodock-vina-and-pymol.html</loc>
-    <lastmod>2020-12-12</lastmod>
+    <lastmod>2020-12-27</lastmod>
+  </url>  <url>
+    <loc>https://mchen.xyz/post/information-tracking-workflow.html</loc>
+    <lastmod>2020-12-27</lastmod>
+  </url>  <url>
+    <loc>https://mchen.xyz/post/summary-2020.html</loc>
+    <lastmod>2020-12-27</lastmod>
   </url>  <url>
     <loc>https://mchen.xyz/post/nku-chem-ky.html</loc>
     <lastmod>2020-09-18</lastmod>
@@ -16,14 +28,8 @@
     <loc>https://mchen.xyz/post/beancount-getting-started.html</loc>
     <lastmod>2020-04-27</lastmod>
   </url>  <url>
-    <loc>https://mchen.xyz/post/movies-2020.html</loc>
-    <lastmod>2020-04-27</lastmod>
-  </url>  <url>
     <loc>https://mchen.xyz/post/crop-lecture-pdf-into-slides.html</loc>
     <lastmod>2020-04-25</lastmod>
-  </url>  <url>
-    <loc>https://mchen.xyz/post/information-tracking-workflow.html</loc>
-    <lastmod>2020-04-23</lastmod>
   </url>  <url>
     <loc>https://mchen.xyz/post/nankai-orgchem2013-answer-beta.html</loc>
     <lastmod>2020-04-23</lastmod>
@@ -33,9 +39,6 @@
   </url>  <url>
     <loc>https://mchen.xyz/post/organic-chemistry-websites.html</loc>
     <lastmod>2020-04-20</lastmod>
-  </url>  <url>
-    <loc>https://mchen.xyz/post/chemtk.html</loc>
-    <lastmod>2020-04-04</lastmod>
   </url>  <url>
     <loc>https://mchen.xyz/post/chrome-bookmark-autosave.html</loc>
     <lastmod>2020-04-04</lastmod>
