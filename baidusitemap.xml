@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://mchen.xyz/post/movies-2020.html</loc>
+    <lastmod>2020-12-27</lastmod>
+  </url>  <url>
     <loc>https://mchen.xyz/post/spin-center-shfit-intro.html</loc>
     <lastmod>2020-12-27</lastmod>
   </url>  <url>
     <loc>https://mchen.xyz/post/chemtk.html</loc>
-    <lastmod>2020-12-27</lastmod>
-  </url>  <url>
-    <loc>https://mchen.xyz/post/movies-2020.html</loc>
     <lastmod>2020-12-27</lastmod>
   </url>  <url>
     <loc>https://mchen.xyz/post/molecular-docking-with-autodock-vina-and-pymol.html</loc>
