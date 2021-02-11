@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mchen.xyz/"/>
-  <updated>2020-12-27T15:49:36.152Z</updated>
+  <updated>2021-01-09T17:43:04.219Z</updated>
   <id>https://mchen.xyz/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>&#39;movies-2021&#39;</title>
+    <link href="https://mchen.xyz/post/movies-2021.html"/>
+    <id>https://mchen.xyz/post/movies-2021.html</id>
+    <published>2021-01-09T17:43:04.000Z</published>
+    <updated>2021-01-09T17:43:04.219Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>A Brief Introduction of Spin-Center-Shift (SCS) Process in Organic Chemistry</title>
     <link href="https://mchen.xyz/post/spin-center-shfit-intro.html"/>
     <id>https://mchen.xyz/post/spin-center-shfit-intro.html</id>
     <published>2020-12-27T15:44:02.000Z</published>
-    <updated>2020-12-27T15:49:36.152Z</updated>
+    <updated>2021-02-10T09:17:36.520Z</updated>
     
     <summary type="html">
     
@@ -377,28 +399,6 @@
       <category term="化学" scheme="https://mchen.xyz/tags/%E5%8C%96%E5%AD%A6/"/>
     
       <category term="考研" scheme="https://mchen.xyz/tags/%E8%80%83%E7%A0%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 博客搭建纪实</title>
-    <link href="https://mchen.xyz/post/hexo-blog-setup.html"/>
-    <id>https://mchen.xyz/post/hexo-blog-setup.html</id>
-    <published>2019-01-07T14:00:00.000Z</published>
-    <updated>2019-02-10T04:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      恰值元旦假期有空，参照网上教程搭建起这个博客，便将过程记录在此备忘。
-    
-    </summary>
-    
-      <category term="Computer Skills" scheme="https://mchen.xyz/categories/computer-skills/"/>
-    
-      <category term="Hexo 博客" scheme="https://mchen.xyz/categories/computer-skills/hexo-blog/"/>
-    
-    
-      <category term="Hexo" scheme="https://mchen.xyz/tags/Hexo/"/>
     
   </entry>
   
